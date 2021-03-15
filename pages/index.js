@@ -1,65 +1,51 @@
 import Head from 'next/head'
+import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 import styles from '../styles/Home.module.css'
+
+import projectData from '../public/data/project_data.json';
+import contactData from '../public/data/contact_data.json';
+
+// console.log(projectData, contactData);
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="theme-color" content="#f3f3f3" />
+
+        <title>Sam Learner Projects</title>
+        <meta name="title" content="Sam Learner Projects" />
+        <meta name="description" content="Sam Learner code/visualization portfolio site." />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sam Learner Projects" />
+        <meta property="og:description" content="Sam Learner code/visualization portfolio site." />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Sam Learner Projects" />
+        <meta property="twitter:description" content="Sam Learner code/visualization portfolio site."></meta>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-1CK69LSY3T"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-1CK69LSY3T');
+              `,
+          }}
+        />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Projects />
+      <Contact />
     </div>
   )
 }

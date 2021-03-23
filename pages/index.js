@@ -1,12 +1,7 @@
 import Head from 'next/head'
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
-import styles from '../styles/Home.module.css'
-
-import projectData from '../public/data/project_data.json';
-import contactData from '../public/data/contact_data.json';
-
-// console.log(projectData, contactData);
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -44,6 +39,9 @@ export default function Home() {
           }}
         />
       </Head>
+      <img class="background-callout" id="first-callout" src="/img/callout1.svg" alt="first color callout"/>
+      <img class="background-callout" id="second-callout" src="/img/callout2.svg" alt="second color callout"/>
+
       <Projects />
       <Contact />
     </div>

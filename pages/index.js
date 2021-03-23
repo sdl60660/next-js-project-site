@@ -39,11 +39,11 @@ export default function Home() {
           }}
         />
       </Head>
+      <img class="background-callout" id="first-callout" src="/img/callout1.svg" alt="first color callout"/>
       <Projects />
       <Contact />
     </div>
   )
 }
 
-// <img class="background-callout" id="first-callout" src="/img/callout1.svg" alt="first color callout"/>
 // <img class="background-callout" id="second-callout" src="/img/callout2.svg" alt="second color callout"/>

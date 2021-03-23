@@ -19,12 +19,12 @@ a {
 .background-callout {
   position: absolute;
   opacity: 0.8;
-  max-width: 40vw;
+  max-width: 30vw;
 }
 
 #first-callout {
-  top: 10%;
-  margin-left: 2rem;
+  top: 5%;
+  margin-left: 1rem;
 }
 
 #second-callout {

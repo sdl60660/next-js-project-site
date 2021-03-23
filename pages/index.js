@@ -23,6 +23,8 @@ export default function Home() {
         <meta property="twitter:title" content="Sam Learner Projects" />
         <meta property="twitter:description" content="Sam Learner code/visualization portfolio site."></meta>
 
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-1CK69LSY3T"

@@ -11,8 +11,11 @@
 	color: black;
 	max-width: 320px;
 	/* font-weight: 500; */
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	/* line-height: 1.3; */
+	/* font-family: 'Noto Serif TC'; */
+	font-family: 'Yantramanav', sans-serif;
+	/* font-weight: 500; */
 }
 
 .project {
@@ -104,9 +107,12 @@
 #project-header {
 	justify-self: left;
 	padding-left: 40px;
-	font-size: 2rem;
+	font-size: 2.6rem;
 	font-weight: normal;
 	grid-column: 1 / 2;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	/* font-family: 'Noto Serif TC'; */
 }
 
 .black-fill {

@@ -56,6 +56,13 @@
         "visible": "true"
     },
     {
+        "project_link": "https://bit.ly/commuter-mapping",
+        "title": "Metro Commuter Mapping",
+        "image": "commuter_mapping_preview.png",
+        "added_classes": "no-padding",
+        "visible": "true"
+    },
+    {
         "project_link": "https://bit.ly/av-club-reviews",
         "title": "AV Club Review Data Explorer",
         "image": "av_club_preview.png",

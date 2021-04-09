@@ -57,7 +57,7 @@
     },
     {
         "project_link": "https://bit.ly/commuter-mapping",
-        "title": "Metro Commuter Mapping",
+        "title": "Metro Area Commuter Mapping",
         "image": "commuter_mapping_preview.png",
         "added_classes": "no-padding",
         "visible": "true"

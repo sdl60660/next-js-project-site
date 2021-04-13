@@ -31,7 +31,7 @@ export default function Home() {
             <div className="row">
                 <div className="caption">
                     <p>
-                        An early test of the sensor, relay, arduino, and light setup with the LEDs outside of the drumset. One of the early challenges was figuring out the right 
+                        Here's an early test of the sensor, relay, arduino, and light setup with the LEDs outside of the drumset. One of the early challenges was figuring out the right 
                         sensitivity for the disk sensors, so that they wouldn't fire off with light touches, but would reliably fire off when the bucket was hit with a drum stick. 
                     </p>
                 </div>
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="row">
                 <div className="caption">
                     <p>
-                        Testing out the set in the Ingenuity Fest space. The dark warehouse at ended up being a perfect venue for the drumset and we were able to line some nearby 
+                        Finally, we tested out the set in the Ingenuity Fest space. The dark warehouse at ended up being a perfect venue for the drumset and we were able to line some nearby 
                         window sills with some lights that were slower to power on, creating a kind of crescendo effect with repeated drum hits.
                     </p>
                 </div>
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="row">
                 <div className="caption">
                     <p>
-                        John making a hot fix to the set after we busted yet another sensor. Luckily these were relatively cheap and could be soldered back together pretty easily.
+                        Here's John making a hot fix to the set after we busted yet another sensor. Luckily these were relatively cheap and could be soldered back together pretty easily.
                     </p>
                 </div>
                 <img className="drumset-image" src="/img/drumset/drumset-fix.jpg" alt="Making a quick fix to the switch on the fly."/> 

@@ -51,7 +51,7 @@ a {
 }
 
 .container p {
-  max-width: 60rem;
+  max-width: 50rem;
   margin: 2rem auto;
 }
 
@@ -66,6 +66,11 @@ a {
 
 .container .row p {
   max-width: 35rem;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
 }
 
 hr {
@@ -144,6 +149,7 @@ p {
   .container p {
     font-size: 1.1rem;
     margin: unset;
+    padding: 0 2rem;
   }
 
   .container .row {

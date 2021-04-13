@@ -24,6 +24,8 @@ const Projects = () => {
             }
             </div>
 
+            <br/>
+
             <div className={styles.row}>
                 <h2 id={styles["project-header"]}>Other Projects</h2>
             </div>

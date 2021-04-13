@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <div className={styles.container} id={styles["project-container"]}>
             <div className={styles.row}>
-                <h2 id={styles["project-header"]}>Projects</h2>
+                <h2 id={styles["project-header"]}>Web Projects</h2>
             </div>
 
             <div className={styles.row}>
@@ -23,9 +23,18 @@ const Projects = () => {
                 ))
             }
             </div>
+
+            <div className={styles.row}>
+                <h2 id={styles["project-header"]}>Other Projects</h2>
+            </div>
+
+            <div className={styles.row}>
+                <Project project_link={'/drumset'} title={"Light-Up Drumset"} image={"drumset-preview.png"} added_classes={"dark-fill"} featuredProject={featuredProject} setFeaturedProject={setFeaturedProject} />
+            </div>
         </div>
     )
   }
 
 export default Projects;
   
+//             // project_link, title, image, added_classes,

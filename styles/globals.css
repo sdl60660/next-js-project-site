@@ -1,3 +1,4 @@
+
 html,
 body {
   font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New", "Helvetica Neue";
@@ -5,6 +6,7 @@ body {
   position: relative;
   /* background-image: url('/img/background.svg'); */
   /* background-repeat: no-repeat; */
+  margin: 0;
 }
 
 a {
@@ -33,7 +35,80 @@ a {
   /* margin-left: 5rem; */
 }
 
-@media only screen and (max-width: 750px) {
+.container {
+  display: grid;
+  flex-direction: column;
+  grid-gap: 1rem;
+  margin: 0 5rem 5rem 5rem;
+  padding-top: 3rem;
+  justify-content: center;
+}
+
+.container h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.container p {
+  max-width: 60rem;
+  margin: 2rem auto;
+}
+
+.container .row {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 1rem;
+  /* transform */
+}
+
+.container .row p {
+  max-width: 35rem;
+}
+
+hr {
+  max-width: 60vw;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+/* .container .row:nth-child(even) {
+  flex-direction: row-reverse;
+} */
+
+.caption {
+  padding: 1rem;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.2rem;
+  justify-self: right;
+}
+
+.drumset-image {
+  width: auto;
+  max-height: 40rem;
+  max-width: 35rem;
+  /* margin: auto; */
+  justify-self: right;
+}
+
+.solo-image {
+  margin: auto;
+}
+
+p {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
   .background-callout {
     width: 10rem;
   }
@@ -48,5 +123,42 @@ a {
     right: 1rem;
     /* margin-left: 5rem; */
   }
-  
+
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .drumset-image {
+    max-width: 80vw;
+    justify-self: center;
+  }
+
+  .caption {
+    justify-self: center;
+  }
+
+  .container {
+    margin: 0 2rem 2rem 2rem;
+    padding-top: 2rem;
+  }
+
+  .container p {
+    font-size: 1.1rem;
+    margin: unset;
+  }
+
+  .container .row {
+    margin: 0rem auto 4rem auto;
+    display: grid;
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 1rem;
+    /* transform */
+  }
+
+  .container h2 {
+    margin-top: 0;
+  }
+
 }

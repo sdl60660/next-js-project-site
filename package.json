@@ -13,6 +13,8 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "autoprefixer": "^10.2.5",
+    "json-loader": "^0.5.7",
+    "postcss": "^8.2.10"
   }
 }

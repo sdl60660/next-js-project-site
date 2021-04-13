@@ -83,6 +83,8 @@
 	right: 0;
 	margin-right: 1rem;
 	position: absolute;
+	/* display: flex; */
+	/* flex-direction: column; */
 }
 
 #contact-info {
@@ -117,6 +119,12 @@
 
 .black-fill {
   background-color: rgb(20, 25, 29);
+}
+
+.dark-fill {
+	background-color: rgb(21, 17, 15);
+	padding: 0;
+  	overflow: hidden;
 }
 
 .no-padding {

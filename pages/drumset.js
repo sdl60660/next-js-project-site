@@ -54,7 +54,7 @@ export default function Home() {
                     <p>
                         After wiring up our high tom (smaller bucket), bass drum (garbage bin), and cymbol (kitchen wok), we played around with some other light-up patterns, like having 
                         the lights stay on longer after a hit. It took some adjusting to get everything to fire correcty with the thicker surfaces and differnet materials. 
-                        We also learned pretty quickly that the very cheap sensors were bought were prone to breaking/misfiring when hit hard, so we having to fix/replace them pretty often.
+                        We also learned pretty quickly that the very cheap sensors we bought were prone to breaking/misfiring when hit hard, so we ended up having to fix/replace them pretty often.
                     </p>
                 </div>
                 <video className="drumset-image" controls>

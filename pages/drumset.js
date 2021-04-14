@@ -75,7 +75,7 @@ export default function Home() {
             <div className="row">
                 <div className="caption">
                     <p>
-                        Here's John making a hot fix to the set after we busted yet another sensor. Luckily these were relatively cheap and could be soldered back together pretty easily.
+                        Here's John making a hot fix to the set after we busted yet another sensor. Luckily these were relatively cheap and could usually be soldered back together pretty easily.
                     </p>
                 </div>
                 <img className="drumset-image" src="/img/drumset/drumset-fix.jpg" alt="Making a quick fix to the switch on the fly."/> 

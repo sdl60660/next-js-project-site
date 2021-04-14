@@ -1,9 +1,9 @@
 
 .navbar {
 	background-color: #e0e0e0;
-	height: 10vh;
-	max-height: 4.4rem;
-	min-height: 3.8rem;
+	height: 8vh;
+	max-height: 4rem;
+	min-height: 3rem;
 	display: flex;
 }
 
@@ -18,7 +18,7 @@
 .navbar__main-site-link button {
 	background-color: rgba(48, 112, 196, 0.8);
 	color: white;
-	padding: 0.6rem;
+	padding: 0.5rem;
 	border-radius: 3px;
 	font-size: 1.1rem;
 	text-decoration: none;

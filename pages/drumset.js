@@ -19,8 +19,8 @@ export default function Home() {
             <div>
                 <p>
                     Using an arduino, some disk vibration sensors, an 8-channel relay board, and some LEDs, a friend and I built a light-up drumset for Cleveland's Ingenuity Fest. 
-                    We used two different sized buckets as toms, a large trash bin as a bass drum, and a wok from our kitchen as a cymbol. We attached each to their own LED color to 
-                    translate drum beats into something visual.
+                    We used two different sized buckets as toms, a large trash bin as a bass drum, and a wok from our kitchen as a cymbol. By attaching each to their own LED color, we 
+                    were able to translate drum beats into something visual.
                 </p>
             </div>
         </div>

@@ -1,23 +1,23 @@
 import React from 'react';
 import Head from 'next/head'
 
-const Header = () => {
+const Header = ({ siteTitle }) => {
     return (
         <Head>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <meta name="theme-color" content="#f3f3f3" />
 
-            <title>Sam Learner Projects</title>
-            <meta name="title" content="Sam Learner Projects" />
+            <title>{siteTitle}</title>
+            <meta name="title" content={siteTitle} />
             <meta name="description" content="Sam Learner code/visualization portfolio site." />
 
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Sam Learner Projects" />
+            <meta property="og:title" content={siteTitle} />
             <meta property="og:description" content="Sam Learner code/visualization portfolio site." />
 
             <meta property="twitter:card" content="summary_large_image" />
-            <meta property="twitter:title" content="Sam Learner Projects" />
+            <meta property="twitter:title" content={siteTitle} />
             <meta property="twitter:description" content="Sam Learner code/visualization portfolio site."></meta>
 
             <link rel="preconnect" href="https://fonts.gstatic.com" />

@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div>
-      <Header />
+      <Header siteTitle={"Sam Learner Projects - Drumset"}/>
       <Navbar />
 
         <div className="container">

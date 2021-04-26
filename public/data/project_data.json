@@ -28,16 +28,16 @@
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/cleveland-eviction-mapping",
-        "title": "Cleveland Eviction Mapping",
-        "image": "cleveland_evictions_preview.png",
+        "project_link": "https://bit.ly/nba-player-movement-map",
+        "title": "NBA Player Movement Map",
+        "image": "nba_player_movement_preview_basic.png",
         "added_classes": "",
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/nba-player-movement-map",
-        "title": "NBA Player Movement Map",
-        "image": "nba_player_movement_preview_basic.png",
+        "project_link": "https://bit.ly/cleveland-eviction-mapping",
+        "title": "Cleveland Eviction Mapping",
+        "image": "cleveland_evictions_preview.png",
         "added_classes": "",
         "visible": "true"
     },
@@ -68,5 +68,12 @@
         "image": "av_club_preview.png",
         "added_classes": "",
         "visible": "false"
+    },
+    {
+        "project_link": "https://bit.ly/hs-sports-participation",
+        "title": "High School Sports Participation",
+        "image": "hs_sports_preview.png",
+        "added_classes": "white-fill",
+        "visible": "true"
     }
 ]

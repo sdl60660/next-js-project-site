@@ -42,9 +42,9 @@
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/nba-origins",
-        "title": "Where Are NBA Players From?",
-        "image": "nba_origins_preview.png",
+        "project_link": "https://bit.ly/hs-sports-participation",
+        "title": "High School Sports Participation",
+        "image": "hs_sports_preview.png",
         "added_classes": "white-fill",
         "visible": "true"
     },
@@ -70,10 +70,17 @@
         "visible": "false"
     },
     {
-        "project_link": "https://bit.ly/hs-sports-participation",
-        "title": "High School Sports Participation",
-        "image": "hs_sports_preview.png",
+        "project_link": "https://bit.ly/nba-origins",
+        "title": "Where Are NBA Players From?",
+        "image": "nba_origins_preview.png",
         "added_classes": "white-fill",
+        "visible": "true"
+    },
+    {
+        "project_link": "https://bit.ly/observable-collections",
+        "title": "Observable Notebooks",
+        "image": "observable_preview.png",
+        "added_classes": "no-padding",
         "visible": "true"
     }
 ]

@@ -14,6 +14,13 @@
         "visible": "true"
     },
     {
+        "project_link": "http://bit.ly/river-runner",
+        "title": "River Runner",
+        "image": "river_runner_preview.png",
+        "added_classes": "no-padding",
+        "visible": "true"
+    },
+    {
         "project_link": "https://bit.ly/2020-donor-demographics",
         "title": "2020 Donor Demographics",
         "image": "donor_demographics_preview.png",

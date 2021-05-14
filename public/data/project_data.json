@@ -56,17 +56,17 @@
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/hs-sports-participation",
-        "title": "High School Sports Participation",
-        "image": "hs_sports_preview.png",
-        "added_classes": "white-fill",
-        "visible": "true"
-    },
-    {
         "project_link": "https://bit.ly/commuter-mapping",
         "title": "Metro Area Commuter Mapping",
         "image": "commuter_mapping_preview.png",
         "added_classes": "no-padding",
+        "visible": "true"
+    },
+    {
+        "project_link": "https://bit.ly/hs-sports-participation",
+        "title": "High School Sports Participation",
+        "image": "hs_sports_preview.png",
+        "added_classes": "white-fill",
         "visible": "true"
     },
     {
@@ -75,6 +75,13 @@
         "image": "av_club_preview.png",
         "added_classes": "",
         "visible": "false"
+    },
+    {
+        "project_link": "http://bit.ly/jezzball",
+        "title": "Jezzball",
+        "image": "jezzball_preview.png",
+        "added_classes": "white-fill",
+        "visible": "true"
     },
     {
         "project_link": "https://bit.ly/nba-origins",

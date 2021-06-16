@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div>
-      <Header siteTitle={"Sam Learner Projects - Drumset"}/>
+      <Header siteTitle={"Drumset - Sam Learner Projects"} description={"Light Up Drumset Project Build/Video"}/>
       <Navbar />
 
         <div className="container">

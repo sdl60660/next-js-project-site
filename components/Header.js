@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head'
 
-const Header = ({ siteTitle }) => {
+const Header = ({ siteTitle, description="Sam Learner code/visualization portfolio site." }) => {
     return (
         <Head>
             <meta charSet="utf-8" />
@@ -10,15 +10,15 @@ const Header = ({ siteTitle }) => {
 
             <title>{siteTitle}</title>
             <meta name="title" content={siteTitle} />
-            <meta name="description" content="Sam Learner code/visualization portfolio site." />
+            <meta name="description" content={description} />
 
             <meta property="og:type" content="website" />
             <meta property="og:title" content={siteTitle} />
-            <meta property="og:description" content="Sam Learner code/visualization portfolio site." />
+            <meta property="og:description" content={description} />
 
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:title" content={siteTitle} />
-            <meta property="twitter:description" content="Sam Learner code/visualization portfolio site."></meta>
+            <meta property="twitter:description" content={description}></meta>
 
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />

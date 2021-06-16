@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://river-runner.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://donor-overlap.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://pittsburgh-steps.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://letterboxd.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://cleveland-evictions.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://donor-demographics.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://nba-player-movement.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://commuter-mapping.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.60</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://nba-origins.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.60</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://av-club.samlearner.com/</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.samlearner.com/drumset</loc>
+  <lastmod>2021-06-16T13:55:59+00:00</lastmod>
+  <priority>0.70</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+</urlset>

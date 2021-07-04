@@ -23,5 +23,10 @@
         "link": "https://www.linkedin.com/in/sam-learner/",
         "title": "LinkedIn",
         "image": "linkedin.svg"
+    },
+    {
+        "link": "https://ko-fi.com/samlearner",
+        "title": "Ko-Fi",
+        "image": "kofi.svg"
     }
 ]

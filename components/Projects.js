@@ -38,5 +38,3 @@ const Projects = () => {
   }
 
 export default Projects;
-  
-//             // project_link, title, image, added_classes,

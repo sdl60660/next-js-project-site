@@ -16,8 +16,6 @@ const Project = ({ project_link, title, image, added_classes, featuredProject, s
                         data-info={JSON.stringify(title)}
                         onMouseEnter={(e) => {
                             setFeaturedProject(e.target.dataset.info);
-                            // featuredProject.current = e.target.dataset.info;
-                            // console.log(featuredProject.current)
                         }}
                         onMouseLeave={() => { setFeaturedProject(null) }}
                         style={{transform: featuredProject === JSON.stringify(title) ? "scale(1.05)" : "scale(1)"}}

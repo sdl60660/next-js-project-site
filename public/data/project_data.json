@@ -28,7 +28,7 @@
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/letterboxd-movie-recs",
+        "project_link": "https://bit.ly/movie-recs-letterboxd/",
         "title": "Letterboxd Movie Recommendations",
         "image": "letterboxd_preview.png",
         "added_classes": "black-fill",

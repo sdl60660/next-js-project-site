@@ -106,14 +106,14 @@
 	justify-items: center;
 }
 
-#project-header {
+.project-header {
 	justify-self: left;
 	padding-left: 40px;
 	font-size: 2.6rem;
 	font-weight: normal;
 	grid-column: 1 / 2;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 0.5px;
+	font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif;
+	/* letter-spacing: 0.5px; */
 	/* font-family: 'Noto Serif TC'; */
 }
 

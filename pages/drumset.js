@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 
+import styles from '../styles/Drumset.module.scss';
+
 export default function Home() {
     const [width, setWidth] = useState(650);
     useEffect(() => {
@@ -15,7 +17,7 @@ export default function Home() {
       <Navbar />
 
         <div className="container">
-            <h2>Light Up Drumset</h2>
+            <h2 className={styles["title"]}>Light Up Drumset</h2>
             <div>
                 <p>
                     Using an arduino, some disk vibration sensors, an 8-channel relay board, and some LEDs, a friend and I built a light-up drumset for Cleveland's Ingenuity Fest. 
@@ -100,7 +102,7 @@ export default function Home() {
                 </video>
             </div>
 
-            <iframe className="solo-image" src="https://player.vimeo.com/video/536435125" width={width < 700 ? "380" : "640"} height={width < 700 ? "210" : "360"} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="solo-image" src="https://player.vimeo.com/video/536435125" width={width < 700 ? "380" : "640"} height={width < 700 ? "210" : "360"} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
         </div>
     </div>
   )

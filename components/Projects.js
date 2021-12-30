@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <div className={styles.container} id={styles["project-container"]}>
             <div className={styles.row}>
-                <h2 id={styles["project-header"]}>Web Projects</h2>
+                <h2 className={styles["project-header"]}>Web Projects</h2>
             </div>
 
             <div className={styles.row}>
@@ -27,7 +27,7 @@ const Projects = () => {
             <br/>
 
             <div className={styles.row}>
-                <h2 id={styles["project-header"]}>Other Projects</h2>
+                <h2 className={styles["project-header"]}>Other Projects</h2>
             </div>
 
             <div className={styles.row}>

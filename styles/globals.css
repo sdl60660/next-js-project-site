@@ -45,14 +45,15 @@ a {
 }
 
 .container h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.6rem;
+  font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
   text-align: center;
 }
 
 .container p {
   max-width: 50rem;
   margin: 2rem auto;
+  /* font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif; */
 }
 
 .container .row {

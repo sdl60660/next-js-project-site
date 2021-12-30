@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Header siteTitle={"Sam Learner Projects"} />
-      <img class="background-callout" id="first-callout" src="/img/callout1.svg" alt="first color callout"/>
+        <img className="background-callout" id="first-callout" src="/img/callout1.svg" alt="first color callout"/>
       <Projects />
       <Contact />
     </div>

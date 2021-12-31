@@ -8,3 +8,9 @@
 	/* letter-spacing: 0.5px; */
 	/* font-family: 'Noto Serif TC'; */
 }
+
+@media only screen and (max-width: 750px) {
+	.title {
+		font-size: 2.4rem;
+	}
+}

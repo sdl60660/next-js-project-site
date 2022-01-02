@@ -36,6 +36,8 @@
 
 	background-color: #f9f9f9;
 	opacity: 1.0;
+
+	transition: transform 0.2s;
 }
 
 .project__preview-image img { 

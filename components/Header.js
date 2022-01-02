@@ -15,13 +15,14 @@ const Header = ({ siteTitle, description = "Sam Learner code/visualization portf
       <meta property="og:type" content="website" />
       <meta property="og:title" content={siteTitle} />
       <meta property="og:description" content={description} />
+      <meta property="og:url" content="https://www.samlearner.com/" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:title" content={siteTitle} />
       <meta property="twitter:description" content={description}></meta>
+      <meta property="twitter:url" content="https://www.samlearner.com/" />
 
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={"true"} />
       <link

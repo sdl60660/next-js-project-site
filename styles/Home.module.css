@@ -44,14 +44,6 @@
 	width: 100%;
 	height: auto;
 }
-/* 
-.project__backing {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: #f9f9f9;
-	opacity: 1.0;
-} */
 
 .white-fill {
 	padding-left: 10px;
@@ -66,6 +58,11 @@
 	margin-right: 0.5rem;
 	margin-bottom: 2px;
 
+	transition: transform 0.2s;
+}
+
+.icon-img:hover {
+	transform: scale(1.15);
 }
 
 .spacer {

@@ -41,7 +41,7 @@ const Header = ({ siteTitle, description = "Sam Learner code/visualization portf
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Yantramanav:wght@300;400;500;700&display=swap"
         rel="stylesheet"
       ></link>
-      <link rel="icon" href="/img/callout1.svg" />
+      <link rel="icon" href="/img/callout1_cropped.svg" />
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CK69LSY3T" />
       <script
         dangerouslySetInnerHTML={{

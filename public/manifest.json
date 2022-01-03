@@ -3,12 +3,12 @@
     "name": "Sam Learner Project Site",
     "icons": [
       {
-        "src": "img/callout.svg",
+        "src": "img/callout1_cropped.svg",
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "image/x-icon"
       }
     ],
-    "start_url": ".",
+    "start_url": "/",
     "display": "fullscreen",
     "theme_color": "#6F8AB7",
     "background_color": "#f9f9f9"

@@ -1,8 +1,8 @@
 [
     {
-        "project_link": "http://bit.ly/river-runner",
-        "title": "River Runner",
-        "image": "river_runner_preview.png",
+        "project_link": "https://bit.ly/river-runner-global",
+        "title": "River Runner Global",
+        "image": "river_runner_global_preview.png",
         "added_classes": "no-padding",
         "visible": "true"
     },
@@ -67,6 +67,13 @@
         "title": "High School Sports Participation",
         "image": "hs_sports_preview.png",
         "added_classes": "white-fill",
+        "visible": "true"
+    },
+    {
+        "project_link": "http://bit.ly/river-runner",
+        "title": "River Runner (US)",
+        "image": "river_runner_preview.png",
+        "added_classes": "no-padding",
         "visible": "true"
     },
     {

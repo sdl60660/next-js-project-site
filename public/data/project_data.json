@@ -14,10 +14,10 @@
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/pudding-ppd-complaints",
-        "title": "Philly Police Misconduct \n(The Pudding)",
-        "image": "pudding_philly_police_complaints_preview.png",
-        "added_classes": "",
+        "project_link": "https://bit.ly/pgh-steps",
+        "title": "Pittsburgh Steps",
+        "image": "pittsburgh_steps_preview.png",
+        "added_classes": "no-padding",
         "visible": "true"
     },
     {
@@ -49,10 +49,10 @@
         "visible": "true"
     },
     {
-        "project_link": "https://bit.ly/pgh-steps",
-        "title": "Pittsburgh Steps",
-        "image": "pittsburgh_steps_preview.png",
-        "added_classes": "no-padding",
+        "project_link": "https://bit.ly/pudding-ppd-complaints",
+        "title": "Philly Police Misconduct \n(The Pudding)",
+        "image": "pudding_philly_police_complaints_preview.png",
+        "added_classes": "",
         "visible": "true"
     },
     {

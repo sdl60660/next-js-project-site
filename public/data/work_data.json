@@ -64,7 +64,7 @@
     "title": "How many neurons are there in the brain of a fruit fly?",
     "publication": "New York Times",
     "image": "nyt/science_quiz_preview.png",
-    "added_classes": "",
+    "added_classes": "no-padding",
     "overrideBackground": true,
     "visible": "true",
     "date": "2021-10-26"

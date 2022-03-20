@@ -1,0 +1,92 @@
+[
+  {
+    "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
+    "title": "How Russia’s mistakes and Ukrainian resistance altered Putin’s war",
+    "publication": "Financial Times",
+    "image": "ft/russia_invasion_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-03-18"
+  },
+  {
+    "project_link": "https://www.ft.com/content/27cf21ac-dabc-45a5-813f-0223572b908f",
+    "title": "Democratic donors cross party lines to support anti-Trump Republicans",
+    "publication": "Financial Times",
+    "image": "ft/donor_overlap_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2020-02-15"
+  },
+  {
+    "project_link": "https://www.ft.com/content/4351d5b0-0888-4b47-9368-6bc4dfbccbf5",
+    "title": "Russian Invasion Maps",
+    "publication": "Financial Times",
+    "image": "ft/ukraine_map_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-02-26"
+  },
+  {
+    "project_link": "https://www.nytimes.com/interactive/2022/science/is-pluto-a-planet.html",
+    "title": "Is Pluto a Planet?",
+    "publication": "New York Times",
+    "image": "nyt/pluto_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-01-18"
+  },
+  {
+    "project_link": "https://www.nytimes.com/interactive/2021/12/23/briefing/end-of-year-news-quiz.html",
+    "title": "2021 Year-End News Quiz",
+    "publication": "New York Times",
+    "image": "nyt/news_quiz_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2021-12-23"
+  },
+  {
+    "project_link": "https://www.nytimes.com/interactive/2021/11/17/well/live/holiday-gatherings-covid.html",
+    "title": "Should We Just Cancel Everything?",
+    "publication": "New York Times",
+    "image": "nyt/holiday_travel_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2021-12-23"
+  },
+  {
+    "project_link": "https://www.nytimes.com/interactive/2021/10/26/science/26sci-quiz.html",
+    "title": "How many neurons are there in the brain of a fruit fly?",
+    "publication": "New York Times",
+    "image": "nyt/science_quiz_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2021-10-26"
+  },
+  {
+    "project_link": "https://www.nytimes.com/interactive/2021/07/07/briefing/spelling-bee-quiz.html",
+    "title": "A Spelling Quiz, From the Pages of The Times",
+    "publication": "New York Times",
+    "image": "nyt/spelling_bee_preview.png",
+    "added_classes": "",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2021-07-07"
+  },
+  {
+    "project_link": "https://bit.ly/pudding-ppd-complaints",
+    "title": "Philly Police Misconduct",
+    "publication": "The Pudding",
+    "image": "other/pudding_philly_police_complaints_preview.png",
+    "added_classes": "",
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2020-10-15"
+  }
+]

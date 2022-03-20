@@ -1,26 +1,50 @@
-
 .navbar {
-	background-color: #e0e0e0;
-	height: 8vh;
-	max-height: 4rem;
-	min-height: 3rem;
-	display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  position: fixed;
+  top: 3rem;
+  left: 3rem;
+
+  border-left: 2px solid black;
+  padding-left: 8px;
+
+  z-index: 200;
+
+  font-family: "Red Hat Display", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.navbar-link {
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .navbar__main-site-link {
-	align-self: center;
-	margin-left: 3vw;
-	position: absolute;
-	left: 0vw;
-
 }
 
 .navbar__main-site-link button {
-	background-color: rgba(48, 112, 196, 0.8);
-	color: white;
-	padding: 0.5rem;
-	border-radius: 3px;
-	font-size: 1.1rem;
-	text-decoration: none;
-    cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    position: absolute;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    /* top: 40%; */
+    /* background-color: #eeeeee; */
+    width: 100%;
+    padding: 8px;
+    border-left: unset;
+
+  }
 }

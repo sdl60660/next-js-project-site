@@ -1,13 +1,13 @@
 import Header from "../components/Header";
-import Projects from "../components/Projects";
+import Work from "../components/Work";
 import Contact from "../components/Contact";
-import Navbar from "../components/Navbar";
 import Image from "next/image";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
     <div>
-      <Header siteTitle={"Sam Learner - Projects"} />
+      <Header siteTitle={"Sam Learner - Work"} />
       <Navbar />
       <img
         className="background-callout"
@@ -15,7 +15,7 @@ export default function Home() {
         src="/img/site/callout1.svg"
         alt="first color callout"
       />
-      <Projects />
+      <Work />
       <Contact />
     </div>
   );

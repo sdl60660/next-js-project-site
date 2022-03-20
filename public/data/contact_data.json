@@ -2,31 +2,31 @@
     {
         "link": "https://twitter.com/sam_learner",
         "title": "Twitter",
-        "image": "twitter.svg"
+        "image": "social/twitter.svg"
     },
     {
         "link": "https://github.com/sdl60660",
         "title": "Github",
-        "image": "github.svg"
+        "image": "social/github.svg"
     },
     {
         "link": "https://observablehq.com/@sdl60660",
         "title": "Observable",
-        "image": "observable.png"
+        "image": "social/observable.png"
     },
     {
         "link": "mailto:learnersd@gmail.com",
         "title": "Email",
-        "image": "email.svg"
+        "image": "social/email.svg"
     },
     {
         "link": "https://www.linkedin.com/in/sam-learner/",
         "title": "LinkedIn",
-        "image": "linkedin.svg"
+        "image": "social/linkedin.svg"
     },
     {
         "link": "https://ko-fi.com/samlearner",
         "title": "Ko-Fi",
-        "image": "kofi.svg"
+        "image": "social/kofi.svg"
     }
 ]

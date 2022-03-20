@@ -3,7 +3,7 @@
     "name": "Sam Learner Project Site",
     "icons": [
       {
-        "src": "img/callout1_cropped.svg",
+        "src": "img/site/callout1_cropped.svg",
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "image/x-icon"
       }

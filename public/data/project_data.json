@@ -1,107 +1,114 @@
 [
-    {
-        "project_link": "https://bit.ly/river-runner-global",
-        "title": "River Runner Global",
-        "image": "river_runner_global_preview.png",
-        "added_classes": "no-padding",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/donor-overlap-direct",
-        "title": "2020 Campaign Donor Overlap",
-        "image": "donor_overlap_preview.png",
-        "added_classes": "",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/pgh-steps",
-        "title": "Pittsburgh Steps",
-        "image": "pittsburgh_steps_preview.png",
-        "added_classes": "no-padding",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/donor-demographics-direct",
-        "title": "2020 Donor Demographics",
-        "image": "donor_demographics_preview.png",
-        "added_classes": "",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/movie-recs-letterboxd",
-        "title": "Letterboxd Movie Recommendations",
-        "image": "letterboxd_preview.png",
-        "added_classes": "black-fill",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/nba-player-movement-map",
-        "title": "NBA Player Movement Map",
-        "image": "nba_player_movement_preview_basic.png",
-        "added_classes": "",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/cleveland-eviction-mapping-direct",
-        "title": "Cleveland Eviction Mapping",
-        "image": "cleveland_evictions_preview.png",
-        "added_classes": "",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/pudding-ppd-complaints",
-        "title": "Philly Police Misconduct \n(The Pudding)",
-        "image": "pudding_philly_police_complaints_preview.png",
-        "added_classes": "",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/commuter-mapping",
-        "title": "Metro Area Commuter Mapping",
-        "image": "commuter_mapping_preview.png",
-        "added_classes": "no-padding",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/hs-sports-participation",
-        "title": "High School Sports Participation",
-        "image": "hs_sports_preview.png",
-        "added_classes": "white-fill",
-        "visible": "true"
-    },
-    {
-        "project_link": "http://bit.ly/river-runner",
-        "title": "River Runner (US)",
-        "image": "river_runner_preview.png",
-        "added_classes": "no-padding",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/av-club-reviews",
-        "title": "AV Club Review Data Explorer",
-        "image": "av_club_preview.png",
-        "added_classes": "",
-        "visible": "false"
-    },
-    {
-        "project_link": "http://bit.ly/jezzball",
-        "title": "Jezzball",
-        "image": "jezzball_preview.png",
-        "added_classes": "white-fill",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/nba-origins-direct",
-        "title": "Where Are NBA Players From?",
-        "image": "nba_origins_preview.png",
-        "added_classes": "white-fill",
-        "visible": "true"
-    },
-    {
-        "project_link": "https://bit.ly/observable-collections",
-        "title": "Observable Notebooks",
-        "image": "observable_preview.png",
-        "added_classes": "no-padding",
-        "visible": "true"
-    }
+  {
+    "project_link": "https://bit.ly/river-runner-global",
+    "title": "River Runner Global",
+    "image": "projects/river_runner_global_preview.png",
+    "added_classes": "no-padding",
+    "visible": "true",
+    "date": "2022-01-03"
+  },
+  {
+    "project_link": "https://bit.ly/donor-overlap-direct",
+    "title": "2020 Campaign Donor Overlap",
+    "image": "projects/donor_overlap_preview.png",
+    "added_classes": "",
+    "visible": "true",
+    "date": "2020-10-29"
+  },
+  {
+    "project_link": "https://bit.ly/pgh-steps",
+    "title": "Pittsburgh Steps",
+    "image": "projects/pittsburgh_steps_preview.png",
+    "added_classes": "no-padding",
+    "visible": "true",
+    "date": "2021-03-23"
+  },
+  {
+    "project_link": "https://bit.ly/donor-demographics-direct",
+    "title": "2020 Donor Demographics",
+    "image": "projects/donor_demographics_preview.png",
+    "added_classes": "",
+    "visible": "true",
+    "date": "2020-10-29"
+  },
+  {
+    "project_link": "https://bit.ly/movie-recs-letterboxd",
+    "title": "Letterboxd Movie Recommendations",
+    "image": "projects/letterboxd_preview.png",
+    "added_classes": "black-fill",
+    "visible": "true",
+    "date": "2020-12-08"
+  },
+  {
+    "project_link": "https://bit.ly/nba-player-movement-map",
+    "title": "NBA Player Movement Map",
+    "image": "projects/nba_player_movement_preview_basic.png",
+    "added_classes": "",
+    "visible": "true",
+    "date": "2021-03-29"
+  },
+  {
+    "project_link": "https://bit.ly/cleveland-eviction-mapping-direct",
+    "title": "Cleveland Eviction Mapping",
+    "image": "projects/cleveland_evictions_preview.png",
+    "added_classes": "",
+    "visible": "true",
+    "date": "2020-12-14"
+  },
+  {
+    "project_link": "https://bit.ly/commuter-mapping",
+    "title": "Metro Area Commuter Mapping",
+    "image": "projects/commuter_mapping_preview.png",
+    "added_classes": "no-padding",
+    "visible": "true",
+    "date": "2021-05-27"
+  },
+  {
+    "project_link": "https://bit.ly/hs-sports-participation",
+    "title": "High School Sports Participation",
+    "image": "projects/hs_sports_preview.png",
+    "added_classes": "white-fill",
+    "visible": "true",
+    "date": "2021-04-21"
+  },
+  {
+    "project_link": "http://bit.ly/river-runner",
+    "title": "River Runner (US)",
+    "image": "projects/river_runner_preview.png",
+    "added_classes": "no-padding",
+    "visible": "true",
+    "date": "2021-05-30"
+  },
+  {
+    "project_link": "https://bit.ly/av-club-reviews",
+    "title": "AV Club Review Data Explorer",
+    "image": "projects/av_club_preview.png",
+    "added_classes": "",
+    "visible": "false",
+    "date": "2020-07-01"
+  },
+  {
+    "project_link": "http://bit.ly/jezzball",
+    "title": "Jezzball",
+    "image": "projects/jezzball_preview.png",
+    "added_classes": "white-fill",
+    "visible": "true",
+    "date": "2021-05-05"
+  },
+  {
+    "project_link": "https://bit.ly/nba-origins-direct",
+    "title": "Where Are NBA Players From?",
+    "image": "projects/nba_origins_preview.png",
+    "added_classes": "white-fill",
+    "visible": "true",
+    "date": "2020-06-15"
+  },
+  {
+    "project_link": "https://bit.ly/observable-collections",
+    "title": "Observable Notebooks",
+    "image": "projects/observable_preview.png",
+    "added_classes": "no-padding",
+    "visible": "true",
+    "date": "2021-04-26"
+  }
 ]

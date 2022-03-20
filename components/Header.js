@@ -17,13 +17,13 @@ const Header = ({ siteTitle, description = "Sam Learner code/visualization portf
       <meta property="og:title" content={siteTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content="https://www.samlearner.com/" />
-      <meta property="og:image" content="https://www.samlearner.com/img/callout1.svg" />
+      <meta property="og:image" content="https://www.samlearner.com/img/site/callout1.svg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:title" content={siteTitle} />
       <meta property="twitter:description" content={description}></meta>
       <meta property="twitter:url" content="https://www.samlearner.com/" />
-      <meta property="twitter:image" content="https://www.samlearner.com/img/callout1.svg" />
+      <meta property="twitter:image" content="https://www.samlearner.com/img/site/callout1.svg" />
 
 
       <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -46,8 +46,8 @@ const Header = ({ siteTitle, description = "Sam Learner code/visualization portf
         rel="stylesheet"
       ></link>
       
-      <link rel="icon" href="/img/callout1_cropped.svg" />
-      <link rel="apple-touch-icon" href="/img/callout1_cropped.svg" />
+      <link rel="icon" href="/img/site/callout1_cropped.svg" />
+      <link rel="apple-touch-icon" href="/img/site/callout1_cropped.svg" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CK69LSY3T" />
       <script

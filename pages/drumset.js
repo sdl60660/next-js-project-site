@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div>
-      <Header siteTitle={"Drumset - Sam Learner Projects"} description={"Light Up Drumset Project Build/Video"}/>
+      <Header siteTitle={"Sam Learner - Drumset"} description={"Light Up Drumset Project Build/Video"}/>
       <Navbar />
 
         <div className="container">

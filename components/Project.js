@@ -6,7 +6,6 @@ import styles from "../styles/Home.module.css";
 
 const getImageColor = (imageRef) => {
   const colorThief = new ColorThief();
-  console.log("here", colorThief.getColor(imageRef), colorThief.getPalette(imageRef));
   return colorThief.getColor(imageRef);
 };
 
@@ -42,6 +41,7 @@ const Project = ({
       <a key={title} target={project_link.includes(".") ? "_blank" : ""} className={styles.project}>
         <div className={styles["project__image-wrapper"]}>
           <div
+            key={"image"}
             className={`${styles["project__preview-image"]} ${
               added_classes !== "" ? styles[added_classes] : ""
             }`}
@@ -71,7 +71,7 @@ const Project = ({
               }}
             />
           </div>
-          <div className={styles.caption}>
+          <div className={styles.caption} key={"caption"}>
             <p>
               {title}
               {publication && (

@@ -77,7 +77,7 @@ const Project = ({
               {publication && (
                 <>
                   {" "}
-                  |{" "}
+                  •{" "}
                   <span className={styles["pub-info"]}>
                     {publication}
                     {/* {new Date(date).toLocaleDateString("default", {

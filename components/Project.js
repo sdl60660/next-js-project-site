@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 
 const getImageColor = (imageRef) => {
   const colorThief = new ColorThief();
-  // const img = document.querySelector(imageRef);
+  console.log("here", colorThief.getColor(imageRef), colorThief.getPalette(imageRef));
   return colorThief.getColor(imageRef);
 };
 
@@ -76,8 +76,8 @@ const Project = ({
               {title}
               {publication && (
                 <>
-                  {" "}
-                  •{" "}
+                  {" | "}
+                  {/* <span className={styles["divider-character"]}>•</span> */}
                   <span className={styles["pub-info"]}>
                     {publication}
                     {/* {new Date(date).toLocaleDateString("default", {

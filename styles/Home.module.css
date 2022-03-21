@@ -28,9 +28,18 @@
 .caption span.pub-info {
   /* display: block; */
   font-style: italic;
-  color: #383838;
+  color: #4b4b4b;
   font-weight: 400;
   font-size: 1rem;
+  font-family: "Red Hat Display", "Roboto", Arial, Helvetica, sans-serif;
+  /* margin-left: 8px; */
+}
+
+.caption span.divider-character {
+  padding: 0 8px;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .project {

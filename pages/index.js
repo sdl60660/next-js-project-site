@@ -1,24 +1,7 @@
-import Header from "../components/Header";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
-import Navbar from "../components/Navbar";
-import Image from "next/image";
+import ProjectsPage from "./projects/index.js";
 
 export default function Home() {
   return (
-    <div>
-      <Header siteTitle={"Sam Learner - Projects"} />
-      <Navbar />
-      <img
-        className="background-callout"
-        id="first-callout"
-        src="/img/site/callout1.svg"
-        alt="first color callout"
-      />
-      <Projects />
-      <Contact />
-    </div>
+    <ProjectsPage />
   );
 }
-
-// <img class="background-callout" id="second-callout" src="/img/site/callout2.svg" alt="second color callout"/>

@@ -34,7 +34,7 @@
 .navbar__main-site-link button {
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1050px) {
   .navbar {
     position: absolute;
     flex-direction: row;

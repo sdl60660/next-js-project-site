@@ -28,12 +28,6 @@
   font-weight: 600;
 }
 
-.navbar__main-site-link {
-}
-
-.navbar__main-site-link button {
-}
-
 @media only screen and (max-width: 1050px) {
   .navbar {
     position: absolute;

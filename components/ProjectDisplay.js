@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import Project from "./Project";
 import projectData from "../public/data/project_data.json";
 
-const Projects = () => {
+const ProjectDisplay = () => {
   const [featuredProject, setFeaturedProject] = useState(null);
 
   return (
@@ -34,7 +34,7 @@ const Projects = () => {
 
       <div className={styles.row}>
         <Project
-          project_link={"/drumset"}
+          project_link={"/projects/drumset"}
           title={"Light-Up Drumset"}
           image={"projects/drumset-preview.png"}
           added_classes={"dark-fill"}
@@ -46,4 +46,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectDisplay;

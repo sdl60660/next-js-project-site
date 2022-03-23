@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 
-import Navbar from '../components/Navbar';
-import Header from '../components/Header';
+import Navbar from '../../components/Navbar';
+import Header from '../../components/Header';
 
-import styles from '../styles/Drumset.module.scss';
+import styles from '../../styles/Drumset.module.scss';
 
 export default function Home() {
     const [width, setWidth] = useState(650);

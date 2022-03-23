@@ -5,8 +5,9 @@ import styles from "../styles/Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <NavbarLink path={"/"} label={"Projects"} />
+      <NavbarLink path={"/projects"} label={"Projects"} />
       <NavbarLink path={"/work"} label={"Work"} />
+      <NavbarLink path={"/surveys"} label={"Surveys"} />
     </div>
   );
 };

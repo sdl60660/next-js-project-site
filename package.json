@@ -17,6 +17,6 @@
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "json-loader": "^0.5.7",
-    "postcss": "^8.2.10"
+    "postcss": "^8.4.12"
   }
 }

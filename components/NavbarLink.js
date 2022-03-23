@@ -5,13 +5,14 @@ import styles from "../styles/Navbar.module.css";
 
 const NavbarLink = ({ path, label }) => {
   const router = useRouter();
+  const truePath = router.pathname === "/" ? "/projects" : router.pathname;
 
   return (
     <Link href={path}>
       <div>
         <a
           className={`${styles["navbar-link"]} ${
-            router.pathname === path ? styles["active-link"] : null
+            truePath.includes(path) ? styles["active-link"] : null
           }`}
         >
           {label}

@@ -23,7 +23,7 @@
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
-  <url>
+  <!-- <url>
     <loc>https://www.samlearner.com/surveys</loc>
     <lastmod>2022-03-21T13:55:59+00:00</lastmod>
     <priority>0.9</priority>
@@ -34,7 +34,7 @@
     <lastmod>2022-03-21T13:55:59+00:00</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
-  </url>
+  </url> -->
   <url>
     <loc>https://www.samlearner.com/projects/drumset</loc>
     <lastmod>2022-03-20T13:55:59+00:00</lastmod>

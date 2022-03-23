@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <NavbarLink path={"/projects"} label={"Projects"} />
       <NavbarLink path={"/work"} label={"Work"} />
-      <NavbarLink path={"/surveys"} label={"Surveys"} />
+      {/* <NavbarLink path={"/surveys"} label={"Surveys"} /> */}
     </div>
   );
 };

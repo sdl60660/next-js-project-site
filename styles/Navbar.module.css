@@ -28,7 +28,7 @@
   font-weight: 600;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1250px) {
   .navbar {
     position: absolute;
     flex-direction: row;

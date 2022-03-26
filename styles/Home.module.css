@@ -192,11 +192,13 @@
 
   .project__preview-image,
   .caption {
-    max-width: 230px;
+    width: 300px;
+    max-width: 90vw;
   }
 
   .project__preview-image {
-    height: 230px;
+    height: 300px;
+    max-height: 90vw;
   }
 }
 

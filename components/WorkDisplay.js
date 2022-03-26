@@ -11,7 +11,7 @@ const Work = () => {
   return (
     <div className={styles.container} id={styles["project-container"]}>
       <div className={styles.row}>
-        <h2 className={styles["project-header"]}>Published Work</h2>
+        <h2 className={styles["project-header"]}>Work</h2>
       </div>
 
       <div className={styles.row}>

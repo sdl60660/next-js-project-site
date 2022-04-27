@@ -1,5 +1,15 @@
 [
   {
+    "project_link": "https://ig.ft.com/ukraine-war-food-insecurity/",
+    "title": "How Russia’s war in Ukraine upended the breadbasket of Europe",
+    "publication": "Financial Times",
+    "image": "ft/ukraine_food_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-04-27"
+  },
+  {
     "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
     "title": "How Russia’s mistakes and Ukrainian resistance altered Putin’s war",
     "publication": "Financial Times",

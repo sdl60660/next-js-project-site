@@ -1,5 +1,15 @@
 [
   {
+    "project_link": "https://ig.ft.com/space-debris/",
+    "title": "How Space Debris Threatens Modern Life",
+    "publication": "Financial Times",
+    "image": "ft/space_debris.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-06-08"
+  },
+  {
     "project_link": "https://ig.ft.com/ukraine-war-food-insecurity/",
     "title": "How Russia’s war in Ukraine upended the breadbasket of Europe",
     "publication": "Financial Times",

@@ -80,26 +80,6 @@
     "date": "2021-12-23"
   },
   {
-    "project_link": "https://www.nytimes.com/interactive/2021/10/26/science/26sci-quiz.html",
-    "title": "How many neurons are there in the brain of a fruit fly?",
-    "publication": "New York Times",
-    "image": "nyt/science_quiz_preview.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "visible": "true",
-    "date": "2021-10-26"
-  },
-  {
-    "project_link": "https://www.nytimes.com/interactive/2021/07/07/briefing/spelling-bee-quiz.html",
-    "title": "A Spelling Quiz, From the Pages of The Times",
-    "publication": "New York Times",
-    "image": "nyt/spelling_bee_preview.png",
-    "added_classes": "",
-    "overrideBackground": true,
-    "visible": "true",
-    "date": "2021-07-07"
-  },
-  {
     "project_link": "https://bit.ly/pudding-ppd-complaints",
     "title": "Philly Police Misconduct",
     "publication": "The Pudding",

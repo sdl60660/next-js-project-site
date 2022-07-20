@@ -30,6 +30,16 @@
     "date": "2022-03-18"
   },
   {
+    "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",
+    "title": "Rebuilding one street in Ukraine",
+    "publication": "Financial Times",
+    "image": "ft/rebuilding_one_street_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-07-20"
+  },
+  {
     "project_link": "https://www.ft.com/content/27cf21ac-dabc-45a5-813f-0223572b908f",
     "title": "Democratic donors cross party lines to support anti-Trump Republicans",
     "publication": "Financial Times",

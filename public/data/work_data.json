@@ -20,6 +20,16 @@
     "date": "2022-04-27"
   },
   {
+    "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
+    "title": "The 90km journey that changed the course of the war in Ukraine",
+    "publication": "Financial Times",
+    "image": "ft/ukraine_90km_journey.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-09-28"
+  },
+  {
     "project_link": "https://ig.ft.com/fed-inflation/",
     "title": "Can the Fed tame inflation without causing a recession?",
     "publication": "Financial Times",

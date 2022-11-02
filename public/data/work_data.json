@@ -50,6 +50,16 @@
     "date": "2022-03-18"
   },
   {
+    "project_link": "https://ig.ft.com/arizona-election-deniers/",
+    "title": "How Arizona became ground zero for election deniers",
+    "publication": "Financial Times",
+    "image": "ft/az_election_deniers.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2022-11-02"
+  },
+  {
     "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",
     "title": "Rebuilding one street in Ukraine",
     "publication": "Financial Times",

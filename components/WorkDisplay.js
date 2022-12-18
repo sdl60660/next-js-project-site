@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import Project from "./Project";
 import workData from "../public/data/work_data.json";
 
@@ -19,6 +19,7 @@ const Work = () => {
           .filter(({ visible }) => visible === "true")
           .map((project) => (
             <Project
+              key={project.project_link}
               {...project}
               featuredProject={featuredProject}
               setFeaturedProject={setFeaturedProject}

@@ -1,13 +1,32 @@
-import React, { useState, useRef, useEffect } from "react";
-import Link from "next/link";
-import ColorThief from "colorthief";
+import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import ColorThief from 'colorthief';
 
-import styles from "../styles/Home.module.css";
+import styles from '../styles/Home.module.scss';
 
 const getImageColor = (imageRef) => {
   const colorThief = new ColorThief();
   return colorThief.getColor(imageRef);
 };
+
+const publicationStyleInfo = [
+  {
+    name: 'Financial Times',
+    backgroundColor: '#fff1e5',
+    color: '#000000',
+  },
+  {
+    name: 'New York Times',
+    backgroundColor: '#000000',
+    color: '#ffffff',
+  },
+  {
+    name: 'The Pudding',
+    backgroundColor: '#a973ff',
+    color: '#000000',
+  },
+];
 
 const Project = ({
   project_link,
@@ -20,8 +39,12 @@ const Project = ({
   setFeaturedProject,
   overrideBackground = false,
 }) => {
-  const [backgroundColor, setBackgroundColor] = useState("#f9f9f9");
+  const [backgroundColor, setBackgroundColor] = useState('#f9f9f9');
   const imageRef = useRef(null);
+
+  const pubTagStyle =
+    (publication && publicationStyleInfo.find((d) => publication === d.name)) ||
+    {};
 
   useEffect(() => {
     if (!imageRef.current) {
@@ -40,14 +63,15 @@ const Project = ({
     <Link
       href={project_link}
       key={title}
-      target={project_link.includes(".") ? "_blank" : ""}
+      target={project_link.includes('.') ? '_blank' : ''}
+      rel="noreferrer"
       className={styles.project}
     >
-      <div className={styles["project__image-wrapper"]}>
+      <div className={styles['project__image-wrapper']}>
         <div
-          key={"image"}
-          className={`${styles["project__preview-image"]} ${
-            added_classes !== "" ? styles[added_classes] : ""
+          key={'image'}
+          className={`${styles['project__preview-image']} ${
+            added_classes !== '' ? styles[added_classes] : ''
           }`}
           data-info={JSON.stringify(title)}
           onMouseEnter={(e) => {
@@ -59,40 +83,38 @@ const Project = ({
           style={{
             transform:
               featuredProject === JSON.stringify(title)
-                ? "scale(1.05)"
-                : "scale(1)",
+                ? 'scale(1.05)'
+                : 'scale(1)',
             backgroundColor: overrideBackground ? backgroundColor : null,
           }}
         >
-          <img
-            ref={imageRef}
-            src={`/img/${image}`}
-            alt={title}
-            data-info={JSON.stringify(title)}
-            onLoad={() => {
-              const color = getImageColor(imageRef.current);
-              setBackgroundColor(`rgb(${color[0]}, ${color[1]}, ${color[2]})`);
-            }}
-            style={{
-              opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
-            }}
-          />
+          <div className={styles['inner-wrapper']}>
+            <Image
+              ref={imageRef}
+              src={`/img/${image}`}
+              fill
+              alt={title}
+              data-info={JSON.stringify(title)}
+              onLoad={() => {
+                const color = getImageColor(imageRef.current);
+                setBackgroundColor(
+                  `rgb(${color[0]}, ${color[1]}, ${color[2]})`,
+                );
+              }}
+              style={{
+                opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
+                objectFit: 'contain',
+              }}
+            />
+          </div>
         </div>
-        <div className={styles.caption} key={"caption"}>
+        <div className={styles.caption} key={'caption'}>
           <p>
             {title}
             {publication && (
-              <>
-                {" | "}
-                {/* <span className={styles["divider-character"]}>•</span> */}
-                <span className={styles["pub-info"]}>
-                  {publication}
-                  {/* {new Date(date).toLocaleDateString("default", {
-                      month: "short",
-                      year: "numeric",
-                    })} */}
-                </span>
-              </>
+              <span className={styles['pub-info']} style={{...pubTagStyle}}>
+                {publication}
+              </span>
             )}
           </p>
         </div>

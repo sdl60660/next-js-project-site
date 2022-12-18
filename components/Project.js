@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import ColorThief from 'colorthief';
@@ -24,7 +24,7 @@ const publicationStyleInfo = [
   {
     name: 'The Pudding',
     backgroundColor: '#a973ff',
-    color: '#000000',
+    color: '#ffffff',
   },
 ];
 
@@ -108,6 +108,7 @@ const Project = ({
               sizes="(max-width: 768px) 100%,
               (max-width: 1200px) 100%,
               100%"
+              priority
             />
           </div>
         </div>

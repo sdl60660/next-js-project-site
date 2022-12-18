@@ -7,9 +7,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles["navbar__main-site-link"]}>
         <Link href="/">
-          <a>
-            <button>Main Site</button>
-          </a>
+          <button>Main Site</button>
         </Link>
       </div>
     </div>

@@ -37,60 +37,66 @@ const Project = ({
   }, [imageRef]);
 
   return (
-    <Link href={project_link}>
-      <a key={title} target={project_link.includes(".") ? "_blank" : ""} className={styles.project}>
-        <div className={styles["project__image-wrapper"]}>
-          <div
-            key={"image"}
-            className={`${styles["project__preview-image"]} ${
-              added_classes !== "" ? styles[added_classes] : ""
-            }`}
+    <Link
+      href={project_link}
+      key={title}
+      target={project_link.includes(".") ? "_blank" : ""}
+      className={styles.project}
+    >
+      <div className={styles["project__image-wrapper"]}>
+        <div
+          key={"image"}
+          className={`${styles["project__preview-image"]} ${
+            added_classes !== "" ? styles[added_classes] : ""
+          }`}
+          data-info={JSON.stringify(title)}
+          onMouseEnter={(e) => {
+            setFeaturedProject(e.target.dataset.info);
+          }}
+          onMouseLeave={() => {
+            setFeaturedProject(null);
+          }}
+          style={{
+            transform:
+              featuredProject === JSON.stringify(title)
+                ? "scale(1.05)"
+                : "scale(1)",
+            backgroundColor: overrideBackground ? backgroundColor : null,
+          }}
+        >
+          <img
+            ref={imageRef}
+            src={`/img/${image}`}
+            alt={title}
             data-info={JSON.stringify(title)}
-            onMouseEnter={(e) => {
-              setFeaturedProject(e.target.dataset.info);
-            }}
-            onMouseLeave={() => {
-              setFeaturedProject(null);
+            onLoad={() => {
+              const color = getImageColor(imageRef.current);
+              setBackgroundColor(`rgb(${color[0]}, ${color[1]}, ${color[2]})`);
             }}
             style={{
-              transform: featuredProject === JSON.stringify(title) ? "scale(1.05)" : "scale(1)",
-              backgroundColor: overrideBackground ? backgroundColor : null,
+              opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
             }}
-          >
-            <img
-              ref={imageRef}
-              src={`/img/${image}`}
-              alt={title}
-              data-info={JSON.stringify(title)}
-              onLoad={() => {
-                const color = getImageColor(imageRef.current);
-                setBackgroundColor(`rgb(${color[0]}, ${color[1]}, ${color[2]})`);
-              }}
-              style={{
-                opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
-              }}
-            />
-          </div>
-          <div className={styles.caption} key={"caption"}>
-            <p>
-              {title}
-              {publication && (
-                <>
-                  {" | "}
-                  {/* <span className={styles["divider-character"]}>•</span> */}
-                  <span className={styles["pub-info"]}>
-                    {publication}
-                    {/* {new Date(date).toLocaleDateString("default", {
+          />
+        </div>
+        <div className={styles.caption} key={"caption"}>
+          <p>
+            {title}
+            {publication && (
+              <>
+                {" | "}
+                {/* <span className={styles["divider-character"]}>•</span> */}
+                <span className={styles["pub-info"]}>
+                  {publication}
+                  {/* {new Date(date).toLocaleDateString("default", {
                       month: "short",
                       year: "numeric",
                     })} */}
-                  </span>
-                </>
-              )}
-            </p>
-          </div>
+                </span>
+              </>
+            )}
+          </p>
         </div>
-      </a>
+      </div>
     </Link>
   );
 };

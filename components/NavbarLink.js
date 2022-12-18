@@ -8,16 +8,13 @@ const NavbarLink = ({ path, label }) => {
   const truePath = router.pathname === "/" ? "/projects" : router.pathname;
 
   return (
-    <Link href={path}>
-      <div>
-        <a
-          className={`${styles["navbar-link"]} ${
-            truePath.includes(path) ? styles["active-link"] : null
-          }`}
-        >
-          {label}
-        </a>
-      </div>
+    <Link
+      href={path}
+      className={`${styles["navbar-link"]} ${
+        truePath.includes(path) ? styles["active-link"] : null
+      }`}
+    >
+      <div>{label}</div>
     </Link>
   );
 };

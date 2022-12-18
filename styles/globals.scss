@@ -1,8 +1,9 @@
+@import './settings.scss';
 
 html,
 body {
   font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New", "Helvetica Neue";
-	background-color: #f9f9f9;
+	background-color: $off-white;
   position: relative;
   /* background-image: url('/img/background.svg'); */
   /* background-repeat: no-repeat; */
@@ -45,7 +46,7 @@ a {
 }
 
 .container h2 {
-  font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: $main-sans;
   /* font-size: 2.8rem; */
   text-align: center;
 }
@@ -53,7 +54,7 @@ a {
 .container p {
   max-width: 50rem;
   margin: 2rem auto;
-  /* font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif; */
+  /* font-family: $main-sans; */
 }
 
 .container .row {
@@ -91,7 +92,7 @@ hr {
 
 .caption {
   padding: 1rem;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: $header-text;
   font-size: 1.2rem;
   justify-self: right;
 }
@@ -109,11 +110,11 @@ hr {
 }
 
 p {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: $header-text;
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: $mobile-breakpoint) {
 
   .background-callout {
     width: 10rem;

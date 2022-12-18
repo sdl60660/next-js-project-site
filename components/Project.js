@@ -105,6 +105,9 @@ const Project = ({
                 opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
                 objectFit: 'contain',
               }}
+              sizes="(max-width: 768px) 100%,
+              (max-width: 1200px) 100%,
+              100%"
             />
           </div>
         </div>

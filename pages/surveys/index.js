@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import styles from "../../styles/Surveys.module.css";
+import styles from "../../styles/Surveys.module.scss";
 
 export default function Surveys() {
   return (

@@ -1,3 +1,5 @@
+@import './settings.scss';
+
 .project__image-wrapper {
   vertical-align: top;
   text-align: center;
@@ -13,13 +15,10 @@
   display: block;
   color: black;
   max-width: 320px;
-  /* font-weight: 500; */
   font-size: 1.4rem;
-  /* line-height: 1.3; */
-  /* font-family: 'Noto Serif TC'; */
-  font-family: 'Yantramanav', sans-serif;
+  font-family: $header-text;
   font-weight: 300;
-  margin-top: 8px;
+  margin-top: 10px;
   padding: 0 10px;
 
   p {
@@ -31,7 +30,7 @@
       color: #4b4b4b;
       font-weight: 500;
       font-size: 0.9rem;
-      font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif;
+      font-family: $main-sans;
       white-space: nowrap;
       padding: 4px 8px;
       border-radius: 8px;
@@ -62,7 +61,7 @@
   display: grid;
   align-items: center;
 
-  background-color: #f9f9f9;
+  background-color: $off-white;
   opacity: 1;
 
   transition: transform 0.2s;
@@ -147,9 +146,7 @@
   font-size: 2.6rem;
   font-weight: normal;
   grid-column: 1 / 2;
-  font-family: 'Red Hat Display', 'Roboto', Arial, Helvetica, sans-serif;
-  /* letter-spacing: 0.5px; */
-  /* font-family: 'Noto Serif TC'; */
+  font-family: $main-sans;
 }
 
 .black-fill {
@@ -167,7 +164,7 @@
   overflow: hidden;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: $mobile-breakpoint) {
   .row {
     grid-template-columns: 1fr 1fr;
   }
@@ -214,7 +211,7 @@
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: $tablet-breakpoint) {
   .row {
     grid-template-columns: 1fr;
   }
@@ -244,7 +241,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-breakpoint) {
   .container {
     max-width: 720px;
   }

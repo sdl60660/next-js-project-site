@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "../styles/Navbar.module.css";
+import styles from "../styles/Navbar.module.scss";
 
 const NavbarLink = ({ path, label }) => {
   const router = useRouter();

@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Contact from "../../components/Contact";
 import Navbar from "../../components/Navbar";
 
-import styles from "../../styles/Surveys.module.css";
+import styles from "../../styles/Surveys.module.scss";
 
 export default function Home() {
   return (

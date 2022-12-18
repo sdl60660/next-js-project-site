@@ -1,3 +1,4 @@
+@import './settings.scss';
 
 .title {
 	// justify-self: left;
@@ -9,7 +10,7 @@
 	/* font-family: 'Noto Serif TC'; */
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: $tablet-breakpoint) {
 	.title {
 		font-size: 2.4rem;
 	}

@@ -10,7 +10,7 @@ export default function Document() {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta name="theme-color" content="#f3f3f3" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="/manifest.json" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.samlearner.com/" />

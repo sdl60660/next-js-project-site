@@ -1,10 +1,9 @@
-import React from "react";
+import React, { createContext } from 'react';
+// import Image from "next/image";
 
-import Image from "next/image";
-
-import Header from "./Header";
-import Navbar from "./Navbar";
-import Contact from "./Contact";
+import Header from './Header';
+import Navbar from './Navbar';
+import Contact from './Contact';
 
 const Page = ({ siteTitle, ...props }) => {
   return (

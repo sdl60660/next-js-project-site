@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useMemo } from 'react';
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import ColorThief from 'colorthief';

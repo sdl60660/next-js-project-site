@@ -74,7 +74,7 @@
     "title": "Democratic donors cross party lines to support anti-Trump Republicans",
     "publication": "Financial Times",
     "image": "ft/donor_overlap_preview.png",
-    "added_classes": "",
+    "added_classes": "no-padding",
     "overrideBackground": true,
     "visible": "true",
     "date": "2020-02-15"
@@ -84,7 +84,7 @@
     "title": "Russian Invasion Maps",
     "publication": "Financial Times",
     "image": "ft/ukraine_map_preview.png",
-    "added_classes": "",
+    "added_classes": "no-padding",
     "overrideBackground": true,
     "visible": "true",
     "date": "2022-02-26"

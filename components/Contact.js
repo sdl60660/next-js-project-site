@@ -16,6 +16,7 @@ const Contact = () => {
               className={styles["icon-img"]}
               src={`/img/${image}`}
               alt={title}
+              priority
             />
           </a>
         ))}

@@ -115,9 +115,9 @@ const Project = ({
                 opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
                 objectFit: 'contain',
               }}
-              sizes="(max-width: 768px) 300px,
-              (max-width: 1050px) 300px,
-              300px"
+              sizes="(max-width: 768px) 350px,
+              (max-width: 1050px) 400px,
+              450px"
               priority={isMobile ? index < 2 : index < 6}
             />
           </div>

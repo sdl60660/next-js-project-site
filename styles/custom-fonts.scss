@@ -36,34 +36,6 @@
 
 // Non-variable fonts
 @font-face {
-  font-family: 'Noto Serif';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../asset/fonts/Noto_Serif/NotoSerif-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Noto Serif';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../asset/fonts/Noto_Serif/NotoSerif-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'Noto Serif';
-  font-style: italic;
-  font-weight: 400;
-  src: url('../asset/fonts/Noto_Serif/NotoSerif-Italic.ttf');
-}
-
-@font-face {
-  font-family: 'Noto Serif';
-  font-style: italic;
-  font-weight: 700;
-  src: url('../asset/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf');
-}
-
-@font-face {
   font-family: 'Yantramanav';
   font-style: normal;
   font-weight: 100;
@@ -188,3 +160,32 @@
   font-weight: 900;
   src: url('../asset/fonts/Roboto/Roboto-BlackItalic.ttf');
 }
+
+// Unused for now
+// @font-face {
+//   font-family: 'Noto Serif';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url('../asset/fonts/Noto_Serif/NotoSerif-Regular.ttf');
+// }
+
+// @font-face {
+//   font-family: 'Noto Serif';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url('../asset/fonts/Noto_Serif/NotoSerif-Bold.ttf');
+// }
+
+// @font-face {
+//   font-family: 'Noto Serif';
+//   font-style: italic;
+//   font-weight: 400;
+//   src: url('../asset/fonts/Noto_Serif/NotoSerif-Italic.ttf');
+// }
+
+// @font-face {
+//   font-family: 'Noto Serif';
+//   font-style: italic;
+//   font-weight: 700;
+//   src: url('../asset/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf');
+// }

@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ColorThief from 'colorthief';
 
+import { useMediaQuery } from './util/media-query';
+
 import styles from '../styles/Home.module.scss';
 
 const getImageColor = (imageRef) => {
@@ -38,10 +40,12 @@ const Project = ({
   featuredProject,
   setFeaturedProject,
   overrideBackground = false,
-  index=1000
+  index = 1000,
 }) => {
   const [backgroundColor, setBackgroundColor] = useState('#f9f9f9');
   const imageRef = useRef(null);
+
+  const isMobile = useMediaQuery(768);
 
   const pubTagStyle =
     (publication && publicationStyleInfo.find((d) => publication === d.name)) ||
@@ -109,7 +113,7 @@ const Project = ({
               sizes="(max-width: 768px) 100%,
               (max-width: 1200px) 100%,
               100%"
-              priority={index < 2}
+              priority={isMobile ? index < 2 : index < 6}
             />
           </div>
         </div>
@@ -117,7 +121,7 @@ const Project = ({
           <p>
             {title}
             {publication && (
-              <span className={styles['pub-info']} style={{...pubTagStyle}}>
+              <span className={styles['pub-info']} style={{ ...pubTagStyle }}>
                 {publication}
               </span>
             )}

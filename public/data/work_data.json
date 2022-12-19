@@ -6,6 +6,7 @@
     "image": "ft/space_debris.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(6, 6, 7)",
     "visible": "true",
     "date": "2022-06-08"
   },
@@ -16,6 +17,7 @@
     "image": "ft/ukraine_food_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(247, 240, 228)",
     "visible": "true",
     "date": "2022-04-27"
   },
@@ -26,6 +28,7 @@
     "image": "ft/ukraine_90km_journey.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(101, 108, 92)",
     "visible": "true",
     "date": "2022-09-28"
   },
@@ -36,6 +39,7 @@
     "image": "ft/fed_inflation.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(249, 240, 225)",
     "visible": "true",
     "date": "2022-08-24"
   },
@@ -46,6 +50,7 @@
     "image": "ft/russia_invasion_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(34, 32, 29)",
     "visible": "true",
     "date": "2022-03-18"
   },
@@ -56,6 +61,7 @@
     "image": "ft/az_election_deniers.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(195, 205, 201)",
     "visible": "true",
     "date": "2022-11-02"
   },
@@ -66,6 +72,7 @@
     "image": "ft/rebuilding_one_street_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(61, 68, 62)",
     "visible": "true",
     "date": "2022-07-20"
   },
@@ -76,6 +83,7 @@
     "image": "ft/donor_overlap_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(251, 243, 228)",
     "visible": "true",
     "date": "2020-02-15"
   },
@@ -86,6 +94,7 @@
     "image": "ft/ukraine_map_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
+    "background_color": "rgb(236, 234, 231)",
     "visible": "true",
     "date": "2022-02-26"
   },
@@ -96,6 +105,7 @@
     "image": "nyt/pluto_preview.png",
     "added_classes": "",
     "overrideBackground": true,
+    "background_color": "rgb(66, 57, 53)",
     "visible": "true",
     "date": "2022-01-18"
   },
@@ -106,6 +116,7 @@
     "image": "nyt/news_quiz_preview.png",
     "added_classes": "",
     "overrideBackground": true,
+    "background_color": "rgb(195, 200, 196)",
     "visible": "true",
     "date": "2021-12-23"
   },
@@ -116,6 +127,7 @@
     "image": "nyt/holiday_travel_preview.png",
     "added_classes": "",
     "overrideBackground": true,
+    "background_color": "rgb(242, 98, 71)",
     "visible": "true",
     "date": "2021-12-23"
   },
@@ -126,6 +138,7 @@
     "image": "other/pudding_philly_police_complaints_preview.png",
     "added_classes": "",
     "overrideBackground": false,
+    "background_color": "rgb(248, 247, 246)",
     "visible": "true",
     "date": "2020-10-15"
   }

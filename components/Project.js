@@ -40,9 +40,12 @@ const Project = ({
   featuredProject,
   setFeaturedProject,
   overrideBackground = false,
+  background_color = null,
   index = 1000,
 }) => {
-  const [backgroundColor, setBackgroundColor] = useState('#f9f9f9');
+  const [backgroundColor, setBackgroundColor] = useState(
+    background_color || '#f9f9f9',
+  );
   const imageRef = useRef(null);
 
   const isMobile = useMediaQuery(768);
@@ -52,7 +55,7 @@ const Project = ({
     {};
 
   useEffect(() => {
-    if (!imageRef.current) {
+    if (imageRef.current === null || background_color !== null) {
       return;
     }
 
@@ -101,10 +104,12 @@ const Project = ({
               alt={title}
               data-info={JSON.stringify(title)}
               onLoad={() => {
-                const color = getImageColor(imageRef.current);
-                setBackgroundColor(
-                  `rgb(${color[0]}, ${color[1]}, ${color[2]})`,
-                );
+                if (background_color === null && overrideBackground === true) {
+                  const color = getImageColor(imageRef.current);
+                  setBackgroundColor(
+                    `rgb(${color[0]}, ${color[1]}, ${color[2]})`,
+                  );
+                }
               }}
               style={{
                 opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,

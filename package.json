@@ -10,6 +10,7 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.6",
     "colorthief": "^2.3.2",
     "eslint-config-next": "^13.0.5",
     "eslint-config-prettier": "^8.5.0",

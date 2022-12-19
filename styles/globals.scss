@@ -3,9 +3,18 @@
 html,
 body {
   font-family: $main-sans;
-	background-color: $off-white;
+  background-color: $off-white;
   position: relative;
   margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: $header-text;
+  font-size: 1.2rem;
 }
 
 a {
@@ -13,25 +22,34 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .background-callout {
   position: absolute;
   opacity: 0.8;
-  max-width: 30vw;
-}
+  width: 30vw;
+  max-width: 480px;
 
-#first-callout {
-  top: 7rem;
-  margin-left: 1rem;
-}
+  &#first-callout {
+    top: 112px;
+    margin-left: 16px;
+  }
 
-#second-callout {
-  top: 82%;
-  right: 5%;
-  /* margin-left: 5rem; */
+  &#second-callout {
+    top: 82%;
+    right: 5%;
+  }
+
+  // Some jiggering for next.js Image with "fill" set to true
+  > div {
+    position: unset !important;
+  }
+
+  img {
+    object-fit: contain;
+    height: 100% !important;
+    width: 100% !important;
+    position: relative !important;
+  }
+
 }
 
 .container {
@@ -41,36 +59,35 @@ a {
   margin: 0 5rem 5rem 5rem;
   padding-top: 2rem;
   justify-content: center;
-}
 
-.container h2 {
-  font-family: $main-sans;
-  /* font-size: 2.8rem; */
-  text-align: center;
-}
+  h2 {
+    font-family: $main-sans;
+    /* font-size: 2.8rem; */
+    text-align: center;
+  }
 
-.container p {
-  max-width: 50rem;
-  margin: 2rem auto;
-  /* font-family: $main-sans; */
-}
+  p {
+    max-width: 50rem;
+    margin: 2rem auto;
+    /* font-family: $main-sans; */
+  }
 
-.container .row {
-  margin: 2rem auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  grid-gap: 1rem;
-  /* transform */
-}
+  .row {
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 1rem;
 
-.container .row p {
-  max-width: 35rem;
-  background-color: white;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px #ccc;
+    p {
+      max-width: 35rem;
+      background-color: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px #ccc;
+    }
+  }
 }
 
 hr {
@@ -84,10 +101,6 @@ hr {
   margin: auto;
 }
 
-/* .container .row:nth-child(even) {
-  flex-direction: row-reverse;
-} */
-
 .caption {
   padding: 1rem;
   font-family: $header-text;
@@ -95,47 +108,27 @@ hr {
   justify-self: right;
 }
 
-.drumset-image {
-  width: auto;
-  max-height: 40rem;
-  max-width: 35rem;
-  /* margin: auto; */
-  justify-self: right;
-}
-
 .solo-image {
   margin: auto;
 }
 
-p {
-  font-family: $header-text;
-  font-size: 1.2rem;
-}
-
 @media only screen and (max-width: $mobile-breakpoint) {
-
   .background-callout {
     width: 10rem;
-  }
 
-  #first-callout {
-    top: 8rem;
-    margin-left: 1rem;
-  }
+    &#first-callout {
+      top: 128px;
+      margin-left: 16px;
+    }
 
-  #second-callout {
-    top: 99%;
-    right: 1rem;
-    /* margin-left: 5rem; */
+    &#second-callout {
+      top: 99%;
+      right: 16px;
+    }
   }
 
   .gallery {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .drumset-image {
-    max-width: 80vw;
-    justify-self: center;
   }
 
   .caption {
@@ -144,26 +137,25 @@ p {
 
   .container {
     margin: 0 2rem 2rem 2rem;
-  }
 
-  .container p {
-    font-size: 1.1rem;
-    margin: unset;
-    padding: 0 2rem;
-  }
+    p {
+      font-size: 1.1rem;
+      margin: unset;
+      padding: 0 2rem;
+    }
 
-  .container .row {
-    margin: 0rem auto 4rem auto;
-    display: grid;
-    flex-direction: column-reverse;
-    grid-template-columns: 1fr;
-    align-items: center;
-    grid-gap: 1rem;
-    /* transform */
-  }
+    .row {
+      margin: 0rem auto 4rem auto;
+      display: grid;
+      flex-direction: column-reverse;
+      grid-template-columns: 1fr;
+      align-items: center;
+      grid-gap: 1rem;
+      /* transform */
+    }
 
-  .container h2 {
-    margin-top: 0;
+    h2 {
+      margin-top: 0;
+    }
   }
-
 }

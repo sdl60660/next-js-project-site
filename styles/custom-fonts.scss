@@ -27,6 +27,13 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../asset/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+  font-weight: 200 900;
+  font-style: normal;
+}
+
 // Non-variable fonts
 @font-face {
   font-family: 'Noto Serif';

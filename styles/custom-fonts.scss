@@ -29,10 +29,21 @@
 
 @font-face {
   font-family: 'Inconsolata';
-  src: url('../asset/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+  src: url('../asset/fonts/Inconsolata/optimized/inconsolata-variablefont_wdthwght-webfont.woff2')
+      format('woff2'),
+    url('../asset/fonts/Inconsolata/optimized/inconsolata-variablefont_wdthwght-webfont.woff')
+      format('woff');
   font-weight: 200 900;
   font-style: normal;
 }
+
+// You'll need to use this if you actually want different weights
+// @font-face {
+//   font-family: 'Inconsolata';
+//   src: url('../asset/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+//   font-weight: 200 900;
+//   font-style: normal;
+// }
 
 // Non-variable fonts
 @font-face {

@@ -109,7 +109,7 @@ const Project = ({
               sizes="(max-width: 768px) 100%,
               (max-width: 1200px) 100%,
               100%"
-              priority={index < 3}
+              priority={index < 2}
             />
           </div>
         </div>

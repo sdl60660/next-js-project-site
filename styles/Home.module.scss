@@ -245,7 +245,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $mobile-breakpoint) {
   .container {
     max-width: 960px;
   }

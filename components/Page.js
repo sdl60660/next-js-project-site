@@ -11,7 +11,7 @@ const Page = ({ siteTitle, ...props }) => {
       <Header siteTitle={siteTitle} />
       <Navbar />
       <div className="background-callout" id="first-callout">
-        <Image fill src="/img/site/callout1.svg" alt="first color callout" />
+        <Image fill src="/img/site/callout1.svg" alt="first color callout" priority/>
       </div>
       {props.children}
       <Contact />

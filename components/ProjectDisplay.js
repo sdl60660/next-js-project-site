@@ -17,12 +17,13 @@ const ProjectDisplay = () => {
       <div className={styles.row}>
         {projectData
           .filter(({ visible }) => visible === 'true')
-          .map((project) => (
+          .map((project, index) => (
             <Project
               key={project.project_link}
               {...project}
               featuredProject={featuredProject}
               setFeaturedProject={setFeaturedProject}
+              index={index}
             />
           ))}
       </div>

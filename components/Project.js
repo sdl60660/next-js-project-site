@@ -38,6 +38,7 @@ const Project = ({
   featuredProject,
   setFeaturedProject,
   overrideBackground = false,
+  index=1000
 }) => {
   const [backgroundColor, setBackgroundColor] = useState('#f9f9f9');
   const imageRef = useRef(null);
@@ -108,7 +109,7 @@ const Project = ({
               sizes="(max-width: 768px) 100%,
               (max-width: 1200px) 100%,
               100%"
-              priority
+              priority={index < 3}
             />
           </div>
         </div>

@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  font-family: $header-text;
+  font-family: $main-sans;
   font-size: 1.2rem;
 }
 
@@ -61,7 +61,7 @@ a {
   justify-content: center;
 
   h2 {
-    font-family: $main-sans;
+    font-family: $header-text;
     /* font-size: 2.8rem; */
     text-align: center;
   }
@@ -69,7 +69,6 @@ a {
   p {
     max-width: 50rem;
     margin: 2rem auto;
-    /* font-family: $main-sans; */
   }
 
   .row {
@@ -103,7 +102,7 @@ hr {
 
 .caption {
   padding: 1rem;
-  font-family: $header-text;
+  font-family: $main-sans;
   font-size: 1.2rem;
   justify-self: right;
 }

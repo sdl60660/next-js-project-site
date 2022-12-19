@@ -16,7 +16,7 @@
   color: black;
   max-width: 320px;
   font-size: 1.4rem;
-  font-family: $header-text;
+  font-family: $main-sans;
   font-weight: 300;
   margin-top: 10px;
   padding: 0 10px;
@@ -25,12 +25,13 @@
     margin: 0 auto 10px;
     /* display: inline-block; */
     text-align: center;
+    font-family: $main-sans;
 
     span.pub-info {
       color: #4b4b4b;
       font-weight: 500;
       font-size: 0.9rem;
-      font-family: $main-sans;
+      font-family: $header-text;
       white-space: nowrap;
       padding: 4px 8px;
       border-radius: 8px;
@@ -146,7 +147,7 @@
   font-size: 2.6rem;
   font-weight: normal;
   grid-column: 1 / 2;
-  font-family: $main-sans;
+  font-family: $header-text;
 }
 
 .black-fill {

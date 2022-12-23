@@ -116,8 +116,7 @@ const Project = ({
                 objectFit: 'contain',
               }}
               sizes="(max-width: 768px) 350px,
-              (max-width: 1050px) 450px,
-              600px"
+              (max-width: 1050px) 450px, 600px"
               priority={isMobile ? index < 2 : index < 6}
             />
           </div>

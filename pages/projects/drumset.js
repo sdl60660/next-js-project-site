@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-import Navbar from '../../components/Navbar';
-import Header from '../../components/Header';
+import Page from '../../components/Page';
 
 import styles from '../../styles/Drumset.module.scss';
 
@@ -13,14 +12,12 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <Header
-        siteTitle={'Sam Learner - Drumset'}
-        description={'Light Up Drumset Project Build/Video'}
-      />
-      <Navbar />
-
-      <div className="container">
+    <Page
+      siteTitle={'Sam Learner - Drumset'}
+      description={'Light Up Drumset Project Build/Video'}
+      showCallout={false}
+    >
+      <div className="container" key="intro">
         <h2 className={styles['title']}>Light Up Drumset</h2>
         <div>
           <p>
@@ -36,7 +33,7 @@ export default function Home() {
 
       <hr></hr>
 
-      <div className="container">
+      <div className="container" key="body">
         <div className="row">
           <div className="caption">
             <p>
@@ -129,7 +126,7 @@ export default function Home() {
 
       <hr></hr>
 
-      <div className="container">
+      <div className="container" key="extra-media">
         <p>
           Some footage of people using the finished drumset throughout the
           weekend:
@@ -166,8 +163,9 @@ export default function Home() {
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
-        ></iframe>
+          style={{maxWidth: '100%'}}
+          />
       </div>
-    </div>
+    </Page>
   );
 }

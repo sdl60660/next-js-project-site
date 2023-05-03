@@ -22,6 +22,17 @@
     "date": "2022-04-27"
   },
   {
+    "project_link": "https://ig.ft.com/quantum-computing/",
+    "title": "Quantum computing could break the internet. This is how",
+    "publication": "Financial Times",
+    "image": "ft/quantum_computing_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(40, 42, 50)",
+    "visible": "true",
+    "date": "2022-05-03"
+  },
+  {
     "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
     "title": "The 90km journey that changed the course of the war in Ukraine",
     "publication": "Financial Times",

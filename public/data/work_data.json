@@ -66,6 +66,17 @@
     "date": "2022-03-18"
   },
   {
+    "project_link": "https://ig.ft.com/taiwan-economy/",
+    "title": "How Taiwan became the indispensable economy",
+    "publication": "Financial Times",
+    "image": "ft/taiwan_semiconductors_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(51, 48, 46)",
+    "visible": "true",
+    "date": "2023-05-31"
+  },
+  {
     "project_link": "https://ig.ft.com/arizona-election-deniers/",
     "title": "How Arizona became ground zero for election deniers",
     "publication": "Financial Times",

@@ -105,7 +105,7 @@
     "image": "ft/donor_overlap_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
-    "background_color": "rgb(251, 243, 228)",
+    "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2020-02-15"
   },
@@ -116,7 +116,7 @@
     "image": "ft/ukraine_map_preview.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
-    "background_color": "rgb(236, 234, 231)",
+    "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2022-02-26"
   },

@@ -50,7 +50,7 @@
     "image": "ft/fed_inflation.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
-    "background_color": "rgb(249, 240, 225)",
+    "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2022-08-24"
   },
@@ -88,6 +88,17 @@
     "date": "2022-11-02"
   },
   {
+    "project_link": "https://enterprise-sharing.ft.com/redeem/5e1e3335-ff14-42c3-a616-65b2773ac3c1",
+    "title": "The time to abolish the US penny has come",
+    "publication": "Financial Times",
+    "image": "ft/pennies_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2023-04-15"
+  },
+  {
     "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",
     "title": "Rebuilding one street in Ukraine",
     "publication": "Financial Times",
@@ -99,7 +110,7 @@
     "date": "2022-07-20"
   },
   {
-    "project_link": "https://www.ft.com/content/27cf21ac-dabc-45a5-813f-0223572b908f",
+    "project_link": "https://enterprise-sharing.ft.com/redeem/890f7f46-bb19-4f63-9c60-fcbcffb97f5b",
     "title": "Democratic donors cross party lines to support anti-Trump Republicans",
     "publication": "Financial Times",
     "image": "ft/donor_overlap_preview.png",

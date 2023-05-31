@@ -92,7 +92,7 @@
     "title": "The time to abolish the US penny has come",
     "publication": "Financial Times",
     "image": "ft/pennies_preview.png",
-    "added_classes": "no-padding",
+    "added_classes": "",
     "overrideBackground": true,
     "background_color": "rgb(255, 241, 229)",
     "visible": "true",

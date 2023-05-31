@@ -99,17 +99,6 @@
     "date": "2023-04-15"
   },
   {
-    "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",
-    "title": "Rebuilding one street in Ukraine",
-    "publication": "Financial Times",
-    "image": "ft/rebuilding_one_street_preview.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "background_color": "rgb(61, 68, 62)",
-    "visible": "true",
-    "date": "2022-07-20"
-  },
-  {
     "project_link": "https://enterprise-sharing.ft.com/redeem/890f7f46-bb19-4f63-9c60-fcbcffb97f5b",
     "title": "Democratic donors cross party lines to support anti-Trump Republicans",
     "publication": "Financial Times",
@@ -119,6 +108,17 @@
     "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2020-02-15"
+  },
+  {
+    "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",
+    "title": "Rebuilding one street in Ukraine",
+    "publication": "Financial Times",
+    "image": "ft/rebuilding_one_street_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(61, 68, 62)",
+    "visible": "true",
+    "date": "2022-07-20"
   },
   {
     "project_link": "https://www.ft.com/content/4351d5b0-0888-4b47-9368-6bc4dfbccbf5",

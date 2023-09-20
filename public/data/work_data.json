@@ -44,6 +44,17 @@
     "date": "2022-09-28"
   },
   {
+    "project_link": "https://ig.ft.com/generative-ai/",
+    "title": "Generative AI exists because of the transformer",
+    "publication": "Financial Times",
+    "image": "ft/llm_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2023-09-12"
+  },
+  {
     "project_link": "https://ig.ft.com/fed-inflation/",
     "title": "Can the Fed tame inflation without causing a recession?",
     "publication": "Financial Times",

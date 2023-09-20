@@ -33,17 +33,6 @@
     "date": "2022-05-03"
   },
   {
-    "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
-    "title": "The 90km journey that changed the course of the war in Ukraine",
-    "publication": "Financial Times",
-    "image": "ft/ukraine_90km_journey.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "background_color": "rgb(101, 108, 92)",
-    "visible": "true",
-    "date": "2022-09-28"
-  },
-  {
     "project_link": "https://ig.ft.com/generative-ai/",
     "title": "Generative AI exists because of the transformer",
     "publication": "Financial Times",
@@ -53,6 +42,17 @@
     "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2023-09-12"
+  },
+  {
+    "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
+    "title": "The 90km journey that changed the course of the war in Ukraine",
+    "publication": "Financial Times",
+    "image": "ft/ukraine_90km_journey.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(101, 108, 92)",
+    "visible": "true",
+    "date": "2022-09-28"
   },
   {
     "project_link": "https://ig.ft.com/fed-inflation/",

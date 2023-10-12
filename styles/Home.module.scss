@@ -139,7 +139,7 @@
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  // justify-items: center;
 }
 
 .project-header {
@@ -204,22 +204,29 @@
   .project__preview-image,
   .caption {
     width: 300px;
-    max-width: 90vw;
+    max-width: 80vw;
   }
 
   .project__preview-image {
     height: 300px;
-    max-height: 90vw;
+    max-height: 80vw;
   }
 }
 
 @media only screen and (max-width: $tablet-breakpoint) {
   .row {
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+
+    &.header-row {
+      justify-content: center;
+    }
   }
 
   .project-header {
-    grid-column: 1 / 2;
+    // grid-column: 1 / 2;
   }
 
   .caption p {

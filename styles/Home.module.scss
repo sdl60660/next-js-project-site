@@ -1,5 +1,8 @@
 @import './settings.scss';
 
+$project-tile-width: min(300px, 75vw);
+$project-tile-height: min(300px, 75vw);
+
 .project__image-wrapper {
   vertical-align: top;
   text-align: center;
@@ -53,8 +56,8 @@
 }
 
 .project__preview-image {
-  height: 300px;
-  width: 300px;
+  height: $project-tile-height;
+  width: $project-tile-width;
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
@@ -142,7 +145,7 @@
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  // justify-items: center;
 }
 
 .project-header {
@@ -206,23 +209,51 @@
 
   .project__preview-image,
   .caption {
-    width: 300px;
-    max-width: 90vw;
+    width: $project-tile-width;
   }
 
   .project__preview-image {
-    height: 300px;
-    max-height: 90vw;
+    height: $project-tile-height;
   }
 }
 
 @media only screen and (max-width: $tablet-breakpoint) {
   .row {
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+    position: relative;
+
+    &.header-row {
+      justify-content: center;
+    }
+
+    &:not(.header-row) {
+      // gets the first project box to center correctly
+      padding-left: calc(((100% - $project-tile-width) / 2) - 0px);
+
+      // :after {
+      //   content: '';
+      //   position: absolute;
+      //   z-index: 100;
+      //   top: 0;
+      //   bottom: 0;
+      //   right: 0;
+      //   display: block;
+      //   background-image: linear-gradient(
+      //     to right,
+      //     rgba(255, 255, 255, 0) 50%,
+      //     rgba(249, 249, 249, 1) 100%
+      //   );
+      //   height: 100%;
+      //   width: 20px;
+      // }
+    }
   }
 
   .project-header {
-    grid-column: 1 / 2;
+    // grid-column: 1 / 2;
   }
 
   .caption p {

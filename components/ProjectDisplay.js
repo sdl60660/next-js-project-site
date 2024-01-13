@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import classNames from 'classnames';
 import Image from 'next/image';
 
 import styles from '../styles/Home.module.scss';
@@ -10,7 +11,7 @@ const ProjectDisplay = () => {
 
   return (
     <div className={styles.container} id={styles['project-container']}>
-      <div className={styles.row}>
+      <div className={classNames(styles.row, styles['header-row'])}>
         <h2 className={styles['project-header']}>Web Projects</h2>
       </div>
 
@@ -30,7 +31,7 @@ const ProjectDisplay = () => {
 
       <br />
 
-      <div className={styles.row}>
+      <div className={classNames(styles.row, styles['header-row'])}>
         <h2 className={styles['project-header']}>Other Projects</h2>
       </div>
 

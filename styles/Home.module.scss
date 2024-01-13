@@ -95,14 +95,14 @@
   margin-right: 0.5rem;
   margin-bottom: 2px;
 
-  filter: grayscale(1);
+  filter: grayscale(1) contrast(2);
 
   transition: transform 0.2s, filter 0.2s;
 }
 
 .icon-img:hover {
   transform: scale(1.15);
-  // filter: unset;
+  filter: unset;
 }
 
 .spacer {

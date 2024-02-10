@@ -68,7 +68,7 @@
     "title": "High School Sports Participation",
     "image": "projects/hs_sports_preview.png",
     "added_classes": "white-fill",
-    "visible": "true",
+    "visible": "false",
     "date": "2021-04-21"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Where Are NBA Players From?",
     "image": "projects/nba_origins_preview.png",
     "added_classes": "white-fill",
-    "visible": "true",
+    "visible": "false",
     "date": "2020-06-15"
   },
   {

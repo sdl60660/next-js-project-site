@@ -67,28 +67,6 @@
     "date": "2024-02-28"
   },
   {
-    "project_link": "https://ig.ft.com/fed-inflation/",
-    "title": "Can the Fed tame inflation without causing a recession?",
-    "publication": "Financial Times",
-    "image": "ft/fed_inflation.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "background_color": "rgb(255, 241, 229)",
-    "visible": "true",
-    "date": "2022-08-24"
-  },
-  {
-    "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
-    "title": "The 90km journey that changed the course of the war in Ukraine",
-    "publication": "Financial Times",
-    "image": "ft/ukraine_90km_journey.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "background_color": "rgb(101, 108, 92)",
-    "visible": "true",
-    "date": "2022-09-28"
-  },
-  {
     "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
     "title": "How Russia’s mistakes and Ukrainian resistance altered Putin’s war",
     "publication": "Financial Times",
@@ -100,15 +78,27 @@
     "date": "2022-03-18"
   },
   {
-    "project_link": "https://ig.ft.com/taiwan-economy/",
-    "title": "How Taiwan became the indispensable economy",
+    "project_link": "https://ig.ft.com/fed-inflation/",
+    "title": "Can the Fed tame inflation without causing a recession?",
     "publication": "Financial Times",
-    "image": "ft/taiwan_semiconductors_preview.png",
+    "image": "ft/fed_inflation.png",
     "added_classes": "no-padding",
     "overrideBackground": true,
-    "background_color": "rgb(40, 42, 50)",
+    "background_color": "rgb(255, 241, 229)",
     "visible": "true",
-    "date": "2023-05-31"
+    "date": "2022-08-24"
+  },
+
+  {
+    "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
+    "title": "The 90km journey that changed the course of the war in Ukraine",
+    "publication": "Financial Times",
+    "image": "ft/ukraine_90km_journey.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(101, 108, 92)",
+    "visible": "true",
+    "date": "2022-09-28"
   },
   {
     "project_link": "https://enterprise-sharing.ft.com/redeem/5e1e3335-ff14-42c3-a616-65b2773ac3c1",
@@ -122,6 +112,17 @@
     "date": "2023-04-15"
   },
   {
+    "project_link": "https://ig.ft.com/taiwan-economy/",
+    "title": "How Taiwan became the indispensable economy",
+    "publication": "Financial Times",
+    "image": "ft/taiwan_semiconductors_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(40, 42, 50)",
+    "visible": "true",
+    "date": "2023-05-31"
+  },
+  {
     "project_link": "https://ig.ft.com/arizona-election-deniers/",
     "title": "How Arizona became ground zero for election deniers",
     "publication": "Financial Times",
@@ -131,17 +132,6 @@
     "background_color": "rgb(195, 205, 201)",
     "visible": "true",
     "date": "2022-11-02"
-  },
-  {
-    "project_link": "https://enterprise-sharing.ft.com/redeem/890f7f46-bb19-4f63-9c60-fcbcffb97f5b",
-    "title": "Democratic donors cross party lines to support anti-Trump Republicans",
-    "publication": "Financial Times",
-    "image": "ft/donor_overlap_preview.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "background_color": "rgb(255, 241, 229)",
-    "visible": "true",
-    "date": "2020-02-15"
   },
   {
     "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",
@@ -154,6 +144,18 @@
     "visible": "true",
     "date": "2022-07-20"
   },
+  {
+    "project_link": "https://enterprise-sharing.ft.com/redeem/890f7f46-bb19-4f63-9c60-fcbcffb97f5b",
+    "title": "Democratic donors cross party lines to support anti-Trump Republicans",
+    "publication": "Financial Times",
+    "image": "ft/donor_overlap_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2020-02-15"
+  },
+
   {
     "project_link": "Cannabis redraws US’s 2024 electoral map",
     "title": "Cannabis redraws US’s 2024 electoral map",

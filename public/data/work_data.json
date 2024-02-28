@@ -56,6 +56,17 @@
     "date": "2024-01-18"
   },
   {
+    "project_link": "https://ig.ft.com/microchips/",
+    "title": "Microchip manufacturing",
+    "publication": "Financial Times",
+    "image": "ft/chips.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(237, 164, 55)",
+    "visible": "true",
+    "date": "2024-02-28"
+  },
+  {
     "project_link": "https://ig.ft.com/fed-inflation/",
     "title": "Can the Fed tame inflation without causing a recession?",
     "publication": "Financial Times",
@@ -67,17 +78,6 @@
     "date": "2022-08-24"
   },
   {
-    "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
-    "title": "How Russia’s mistakes and Ukrainian resistance altered Putin’s war",
-    "publication": "Financial Times",
-    "image": "ft/russia_invasion_preview.png",
-    "added_classes": "no-padding",
-    "overrideBackground": true,
-    "background_color": "rgb(34, 32, 29)",
-    "visible": "true",
-    "date": "2022-03-18"
-  },
-  {
     "project_link": "https://ig.ft.com/ukraine-counteroffensive/",
     "title": "The 90km journey that changed the course of the war in Ukraine",
     "publication": "Financial Times",
@@ -87,6 +87,17 @@
     "background_color": "rgb(101, 108, 92)",
     "visible": "true",
     "date": "2022-09-28"
+  },
+  {
+    "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
+    "title": "How Russia’s mistakes and Ukrainian resistance altered Putin’s war",
+    "publication": "Financial Times",
+    "image": "ft/russia_invasion_preview.png",
+    "added_classes": "no-padding",
+    "overrideBackground": true,
+    "background_color": "rgb(34, 32, 29)",
+    "visible": "true",
+    "date": "2022-03-18"
   },
   {
     "project_link": "https://ig.ft.com/taiwan-economy/",

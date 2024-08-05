@@ -98,7 +98,9 @@ $project-tile-height: min(300px, 75vw);
   // margin-right: 0.5rem;
   // margin-bottom: 2px;
 
-  filter: grayscale(1) contrast(2);
+  @media only screen and (min-width: $mobile-breakpoint) {
+    filter: grayscale(1) contrast(2);
+  }
 
   transition: transform 0.2s, filter 0.2s;
 }

@@ -82,17 +82,17 @@ const Project = ({
           key={'image'}
           className={classNames(styles['project__preview-image'], ...added_classes.map(d => styles[d]) )}
           data-info={JSON.stringify(title)}
-          onMouseEnter={(e) => {
-            setFeaturedProject(e.target.dataset.info);
-          }}
-          onMouseLeave={() => {
-            setFeaturedProject(null);
-          }}
+          // onMouseEnter={(e) => {
+          //   setFeaturedProject(e.target.dataset.info);
+          // }}
+          // onMouseLeave={() => {
+          //   setFeaturedProject(null);
+          // }}
           style={{
-            transform:
-              featuredProject === JSON.stringify(title)
-                ? 'scale(1.05)'
-                : 'scale(1)',
+            // transform:
+            //   featuredProject === JSON.stringify(title)
+            //     ? 'scale(1.05)'
+            //     : 'scale(1)',
             backgroundColor: overrideBackground ? backgroundColor : null,
           }}
         >
@@ -112,7 +112,7 @@ const Project = ({
                 }
               }}
               style={{
-                opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
+                // opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
                 objectPosition
               }}
               sizes="(max-width: 768px) 350px,

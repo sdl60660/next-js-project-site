@@ -68,8 +68,13 @@ $project-tile-height: min(300px, 75vw);
   background-color: $off-white;
   opacity: 1;
 
-  transition: transform 0.2s;
+  transition: transform 200ms;
   position: relative;
+
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.55);
+  }
 
   // Used for maintaining inner padding when setting image size with nextjs Image
   div.inner-wrapper {
@@ -177,12 +182,12 @@ $project-tile-height: min(300px, 75vw);
 .dark-fill {
   background-color: rgb(21, 17, 15);
   padding: 0;
-  overflow: hidden;
+  // overflow: clip;
 }
 
 .no-padding {
   padding: 0;
-  overflow: hidden;
+  // overflow: clip;
 }
 
 @media only screen and (max-width: $mobile-breakpoint) {

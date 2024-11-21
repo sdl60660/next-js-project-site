@@ -40,7 +40,7 @@ const ProjectDisplay = () => {
           project_link={'/projects/drumset'}
           title={'Light-Up Drumset'}
           image={'projects/drumset-preview.png'}
-          added_classes={'dark-fill'}
+          added_classes={['dark-fill']}
           featuredProject={featuredProject}
           setFeaturedProject={setFeaturedProject}
         />

@@ -35,7 +35,7 @@
     "project_link": "https://bit.ly/movie-recs-letterboxd",
     "title": "Letterboxd Movie Recommendations",
     "image": "projects/letterboxd_preview.png",
-    "added_classes": "black-fill",
+    "added_classes": ["black-fill"],
     "visible": "true",
     "date": "2020-12-08"
   },
@@ -67,7 +67,7 @@
     "project_link": "https://bit.ly/hs-sports-participation",
     "title": "High School Sports Participation",
     "image": "projects/hs_sports_preview.png",
-    "added_classes": "white-fill",
+    "added_classes": ["white-fill"],
     "visible": "false",
     "date": "2021-04-21"
   },
@@ -91,7 +91,7 @@
     "project_link": "http://bit.ly/jezzball",
     "title": "Jezzball",
     "image": "projects/jezzball_preview.png",
-    "added_classes": "white-fill",
+    "added_classes": ["white-fill"],
     "visible": "true",
     "date": "2021-05-05"
   },
@@ -99,7 +99,7 @@
     "project_link": "https://bit.ly/nba-origins-direct",
     "title": "Where Are NBA Players From?",
     "image": "projects/nba_origins_preview.png",
-    "added_classes": "white-fill",
+    "added_classes": ["white-fill"],
     "visible": "false",
     "date": "2020-06-15"
   },

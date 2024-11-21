@@ -81,7 +81,12 @@ $project-tile-height: min(300px, 75vw);
       width: 100%;
       height: auto;
       border-radius: 10px;
+      object-fit: contain;
     }
+  }
+
+  &.fit-cover .inner-wrapper img {
+    object-fit: cover;
   }
 }
 

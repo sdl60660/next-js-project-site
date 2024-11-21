@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect, useContext } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import ColorThief from 'colorthief';
+import classNames from 'classnames';
 
 import { useMediaQuery } from './util/media-query';
 
@@ -36,11 +37,12 @@ const Project = ({
   image,
   publication,
   date,
-  added_classes,
+  added_classes = [],
   featuredProject,
   setFeaturedProject,
   overrideBackground = false,
   background_color = null,
+  objectPosition = "50% 50%",
   index = 1000,
 }) => {
   const [backgroundColor, setBackgroundColor] = useState(
@@ -78,9 +80,7 @@ const Project = ({
       <div className={styles['project__image-wrapper']}>
         <div
           key={'image'}
-          className={`${styles['project__preview-image']} ${
-            added_classes !== '' ? styles[added_classes] : ''
-          }`}
+          className={classNames(styles['project__preview-image'], ...added_classes.map(d => styles[d]) )}
           data-info={JSON.stringify(title)}
           onMouseEnter={(e) => {
             setFeaturedProject(e.target.dataset.info);
@@ -113,7 +113,7 @@ const Project = ({
               }}
               style={{
                 opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
-                objectFit: 'contain',
+                objectPosition
               }}
               sizes="(max-width: 768px) 350px,
               (max-width: 1050px) 450px, 600px"

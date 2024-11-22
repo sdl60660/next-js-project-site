@@ -4,7 +4,7 @@
     "title": "How Space Debris Threatens Modern Life",
     "publication": "Financial Times",
     "image": "ft/space_debris.png",
-    "added_classes": ["no-padding"],
+    "added_classes": ["no-padding", "fit-cover"],
     "overrideBackground": true,
     "background_color": "rgb(6, 6, 7)",
     "visible": "true",

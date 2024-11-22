@@ -1,8 +1,8 @@
 [
   {
-    "link": "https://twitter.com/sam_learner",
-    "title": "Twitter",
-    "image": "social/twitter.svg"
+    "link": "https://bsky.app/profile/samlearner.bsky.social",
+    "title": "Bluesky",
+    "image": "social/bluesky.svg"
   },
   {
     "link": "https://github.com/sdl60660",
@@ -10,9 +10,9 @@
     "image": "social/github.svg"
   },
   {
-    "link": "https://bsky.app/profile/samlearner.bsky.social",
-    "title": "Bluesky",
-    "image": "social/bluesky.svg"
+    "link": "https://twitter.com/sam_learner",
+    "title": "Twitter",
+    "image": "social/twitter.svg"
   },
   {
     "link": "https://observablehq.com/@sdl60660",

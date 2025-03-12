@@ -5,7 +5,7 @@ import styles from "../styles/Navbar.module.scss";
 
 const NavbarLink = ({ path, label }) => {
   const router = useRouter();
-  const truePath = router.pathname === "/" ? "/projects" : router.pathname;
+  const truePath = router.pathname === "/" ? "/work" : router.pathname;
 
   return (
     <Link

@@ -1,7 +1,7 @@
-import ProjectsPage from "./projects/index.js";
+import WorkPage from "./work/index.js";
 
 export default function Home() {
   return (
-    <ProjectsPage />
+    <WorkPage />
   );
 }

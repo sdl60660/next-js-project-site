@@ -33,15 +33,15 @@
     "date": "2022-05-03"
   },
   {
-    "project_link": "https://ig.ft.com/ukraine-war-food-insecurity/",
-    "title": "How Russia’s war in Ukraine upended the breadbasket of Europe",
+    "project_link": "https://ig.ft.com/microchips/",
+    "title": "Microchip manufacturing",
     "publication": "Financial Times",
-    "image": "ft/ukraine_food_preview.png",
+    "image": "ft/chips.png",
     "added_classes": ["no-padding"],
     "overrideBackground": true,
-    "background_color": "rgb(247, 240, 228)",
+    "background_color": "rgb(237, 164, 55)",
     "visible": "true",
-    "date": "2022-04-27"
+    "date": "2024-02-28"
   },
   {
     "project_link": "https://ig.ft.com/ai-animals/",
@@ -55,17 +55,6 @@
     "date": "2024-01-18"
   },
   {
-    "project_link": "https://ig.ft.com/microchips/",
-    "title": "Microchip manufacturing",
-    "publication": "Financial Times",
-    "image": "ft/chips.png",
-    "added_classes": ["no-padding"],
-    "overrideBackground": true,
-    "background_color": "rgb(237, 164, 55)",
-    "visible": "true",
-    "date": "2024-02-28"
-  },
-  {
     "project_link": "https://ig.ft.com/ai-robots/",
     "title": "Are the robots finally coming?",
     "publication": "Financial Times",
@@ -74,6 +63,17 @@
     "overrideBackground": false,
     "visible": "true",
     "date": "2024-11-20"
+  },
+  {
+    "project_link": "https://ig.ft.com/baltic-sea/",
+    "title": "Inside Russia’s shadow war in the Baltics",
+    "publication": "Financial Times",
+    "image": "ft/baltic_sea_preview.jpg",
+    "added_classes": ["no-padding"],
+    "overrideBackground": true,
+    "background_color": "rgb(40, 42, 50)",
+    "visible": "true",
+    "date": "2024-03-10"
   },
   {
     "project_link": "https://ig.ft.com/us-election-game/",
@@ -128,6 +128,17 @@
     "overrideBackground": true,
     "visible": "true",
     "date": "2024-06-12"
+  },
+  {
+    "project_link": "https://ig.ft.com/ukraine-war-food-insecurity/",
+    "title": "How Russia’s war in Ukraine upended the breadbasket of Europe",
+    "publication": "Financial Times",
+    "image": "ft/ukraine_food_preview.png",
+    "added_classes": ["no-padding"],
+    "overrideBackground": true,
+    "background_color": "rgb(247, 240, 228)",
+    "visible": "true",
+    "date": "2022-04-27"
   },
   {
     "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",

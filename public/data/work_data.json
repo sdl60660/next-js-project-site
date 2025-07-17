@@ -55,14 +55,16 @@
     "date": "2024-01-18"
   },
   {
-    "project_link": "https://ig.ft.com/ai-robots/",
-    "title": "Are the robots finally coming?",
+    "project_link": "https://on.ft.com/4eCVsJ7",
+    "title": "Ukrainian children investigation",
     "publication": "Financial Times",
-    "image": "ft/robots.png",
+    "image": "ft/ukrainian_children.jpg",
     "added_classes": ["no-padding", "fit-cover"],
-    "overrideBackground": false,
+    "objectPosition": "100% 50%",
+
+    "overrideBackground": true,
     "visible": "true",
-    "date": "2024-11-20"
+    "date": "2024-06-12"
   },
   {
     "project_link": "https://ig.ft.com/baltic-sea/",
@@ -76,35 +78,14 @@
     "date": "2024-03-10"
   },
   {
-    "project_link": "https://ig.ft.com/us-election-game/",
-    "title": "Election Game",
+    "project_link": "https://ig.ft.com/us-immigration-detention/",
+    "title": "Inside America’s booming immigration detention industry",
     "publication": "Financial Times",
-    "image": "ft/election_game.png",
-    "overrideBackground": false,
-    "added_classes": ["no-padding"],
-    "visible": "true",
-    "date": "2024-09-25"
-  },
-  {
-    "project_link": "https://ig.ft.com/private-equity/",
-    "title": "How private equity tangled banks in debt",
-    "publication": "Financial Times",
-    "image": "ft/private_equity_debt.png",
+    "image": "ft/immigration_detention.jpg",
     "added_classes": ["no-padding", "fit-cover"],
     "overrideBackground": false,
     "visible": "true",
-    "date": "2024-07-24"
-  },
-  {
-    "project_link": "https://ig.ft.com/taiwan-battlegrounds/",
-    "title": "The battlegrounds that could decide a US-China war over Taiwan",
-    "publication": "Financial Times",
-    "image": "ft/taiwan_battlegrounds.jpg",
-    "added_classes": ["no-padding", "fit-cover"],
-    "overrideBackground": false,
-    "objectPosition": "22% 50%",
-    "visible": "true",
-    "date": "2024-05-19"
+    "date": "2025-07-16"
   },
   {
     "project_link": "https://ig.ft.com/black-sea/",
@@ -118,16 +99,67 @@
     "date": "2024-05-02"
   },
   {
-    "project_link": "https://on.ft.com/4eCVsJ7",
-    "title": "Ukrainian children investigation",
+    "project_link": "https://ig.ft.com/private-equity/",
+    "title": "How private equity tangled banks in debt",
     "publication": "Financial Times",
-    "image": "ft/ukrainian_children.jpg",
+    "image": "ft/private_equity_debt.png",
     "added_classes": ["no-padding", "fit-cover"],
-    "objectPosition": "100% 50%",
-
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2024-07-24"
+  },
+  {
+    "project_link": "https://on.ft.com/46ceGVB",
+    "title": "FT Magazine MTA Feature",
+    "publication": "Financial Times",
+    "image": "ft/mta_magazine.jpg",
+    "added_classes": ["no-padding"],
+    "background_color": "rgb(40, 42, 50)",
     "overrideBackground": true,
     "visible": "true",
-    "date": "2024-06-12"
+    "date": "2024-05-10"
+  },
+  {
+    "project_link": "https://on.ft.com/40MpAxV",
+    "title": "The battle over New York’s congestion toll",
+    "publication": "Financial Times",
+    "image": "ft/congestion_pricing.png",
+    "added_classes": ["no-padding"],
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2024-05-01"
+  },
+  {
+    "project_link": "https://ig.ft.com/taiwan-battlegrounds/",
+    "title": "The battlegrounds that could decide a US-China war over Taiwan",
+    "publication": "Financial Times",
+    "image": "ft/taiwan_battlegrounds.jpg",
+    "added_classes": ["no-padding", "fit-cover"],
+    "overrideBackground": false,
+    "objectPosition": "22% 50%",
+    "visible": "true",
+    "date": "2024-05-19"
+  },
+  {
+    "project_link": "https://ig.ft.com/us-election-game/",
+    "title": "Election Game",
+    "publication": "Financial Times",
+    "image": "ft/election_game.png",
+    "overrideBackground": false,
+    "added_classes": ["no-padding"],
+    "visible": "true",
+    "date": "2024-09-25"
+  },
+  {
+    "project_link": "https://ig.ft.com/ai-robots/",
+    "title": "Are the robots finally coming?",
+    "publication": "Financial Times",
+    "image": "ft/robots.png",
+    "added_classes": ["no-padding", "fit-cover"],
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2024-11-20"
   },
   {
     "project_link": "https://ig.ft.com/ukraine-war-food-insecurity/",

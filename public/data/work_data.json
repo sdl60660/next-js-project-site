@@ -120,6 +120,17 @@
     "date": "2024-05-10"
   },
   {
+    "project_link": " https://ig.ft.com/shadow-fleet/",
+    "title": "The ships capitalising on the chaos of war",
+    "publication": "Financial Times",
+    "image": "ft/shadow_fleet.avif",
+    "added_classes": ["no-padding"],
+    "background_color": "rgb(40, 42, 50)",
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2026-03-25"
+  },
+  {
     "project_link": "https://on.ft.com/40MpAxV",
     "title": "The battle over New York’s congestion toll",
     "publication": "Financial Times",
@@ -150,6 +161,17 @@
     "added_classes": ["no-padding"],
     "visible": "true",
     "date": "2024-09-25"
+  },
+    {
+    "project_link": "https://as.ft.com/r/a95ce368-ade2-4503-9d42-5dd7d0c8910f",
+    "title": "ICE agents hate being filmed",
+    "publication": "Financial Times",
+    "image": "ft/ice_agents.jpg",
+    "added_classes": ["no-padding"],
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2026-02-12"
   },
   {
     "project_link": "https://ig.ft.com/ai-robots/",

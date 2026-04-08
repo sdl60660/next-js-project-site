@@ -189,7 +189,8 @@
     "publication": "Financial Times",
     "image": "ft/av_prediction_markets.jpg",
     "added_classes": ["no-padding"],
-    "overrideBackground": false,
+    "background_color": "rgb(1, 24, 66)",
+    "overrideBackground": true,
     "visible": "true",
     "date": "2025-12-19"
   },

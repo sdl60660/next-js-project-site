@@ -126,7 +126,7 @@
     "image": "ft/shadow_fleet.avif",
     "added_classes": ["no-padding"],
     "background_color": "rgb(40, 42, 50)",
-    "overrideBackground": false,
+    "overrideBackground": true,
     "visible": "true",
     "date": "2026-03-25"
   },
@@ -163,17 +163,6 @@
     "date": "2024-09-25"
   },
   {
-    "project_link": "https://as.ft.com/r/a95ce368-ade2-4503-9d42-5dd7d0c8910f",
-    "title": "ICE agents hate being filmed",
-    "publication": "Financial Times",
-    "image": "ft/ice_agents.jpg",
-    "added_classes": ["no-padding"],
-    "overrideBackground": true,
-    "background_color": "rgb(255, 241, 229)",
-    "visible": "true",
-    "date": "2026-02-12"
-  },
-  {
     "project_link": "https://ig.ft.com/ai-robots/",
     "title": "Are the robots finally coming?",
     "publication": "Financial Times",
@@ -182,6 +171,27 @@
     "overrideBackground": false,
     "visible": "true",
     "date": "2024-11-20"
+  },
+  {
+    "project_link": "https://as.ft.com/r/a95ce368-ade2-4503-9d42-5dd7d0c8910f",
+    "title": "ICE agents hate being filmed",
+    "publication": "Financial Times",
+    "image": "ft/ice_agents.jpg",
+    "added_classes": [],
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2026-02-12"
+  },
+  {
+    "project_link": "https://www.ft.com/content/1ac03f57-bd5d-4196-85ff-4bd96dc69e0d",
+    "title": "Prediction markets barely make money; sportsbooks make money",
+    "publication": "Financial Times",
+    "image": "ft/av_prediction_markets.jpg",
+    "added_classes": ["no-padding"],
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2025-12-19"
   },
   {
     "project_link": "https://ig.ft.com/ukraine-war-food-insecurity/",
@@ -193,16 +203,6 @@
     "background_color": "rgb(247, 240, 228)",
     "visible": "true",
     "date": "2022-04-27"
-  },
-  {
-    "project_link": "https://www.ft.com/content/1ac03f57-bd5d-4196-85ff-4bd96dc69e0d",
-    "title": "Prediction markets barely make money; sportsbooks make money",
-    "publication": "Financial Times",
-    "image": "ft/av_prediction_markets.jpg",
-    "added_classes": ["no-padding"],
-    "overrideBackground": false,
-    "visible": "true",
-    "date": "2025-12-19"
   },
   {
     "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",

@@ -162,7 +162,7 @@
     "visible": "true",
     "date": "2024-09-25"
   },
-    {
+  {
     "project_link": "https://as.ft.com/r/a95ce368-ade2-4503-9d42-5dd7d0c8910f",
     "title": "ICE agents hate being filmed",
     "publication": "Financial Times",
@@ -193,6 +193,16 @@
     "background_color": "rgb(247, 240, 228)",
     "visible": "true",
     "date": "2022-04-27"
+  },
+  {
+    "project_link": "https://www.ft.com/content/1ac03f57-bd5d-4196-85ff-4bd96dc69e0d",
+    "title": "Prediction markets barely make money; sportsbooks make money",
+    "publication": "Financial Times",
+    "image": "ft/av_prediction_markets.jpg",
+    "added_classes": ["no-padding"],
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2025-12-19"
   },
   {
     "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
@@ -227,17 +237,7 @@
     "visible": "true",
     "date": "2022-09-28"
   },
-  {
-    "project_link": "https://enterprise-sharing.ft.com/redeem/5e1e3335-ff14-42c3-a616-65b2773ac3c1",
-    "title": "The time to abolish the US penny has come",
-    "publication": "Financial Times",
-    "image": "ft/pennies_preview.png",
-    "added_classes": [],
-    "overrideBackground": true,
-    "background_color": "rgb(255, 241, 229)",
-    "visible": "true",
-    "date": "2023-04-15"
-  },
+
   {
     "project_link": "https://ig.ft.com/taiwan-economy/",
     "title": "How Taiwan became the indispensable economy",
@@ -270,6 +270,17 @@
     "background_color": "rgb(61, 68, 62)",
     "visible": "true",
     "date": "2022-07-20"
+  },
+  {
+    "project_link": "https://enterprise-sharing.ft.com/redeem/5e1e3335-ff14-42c3-a616-65b2773ac3c1",
+    "title": "The time to abolish the US penny has come",
+    "publication": "Financial Times",
+    "image": "ft/pennies_preview.png",
+    "added_classes": [],
+    "overrideBackground": true,
+    "background_color": "rgb(255, 241, 229)",
+    "visible": "true",
+    "date": "2023-04-15"
   },
   {
     "project_link": "https://enterprise-sharing.ft.com/redeem/890f7f46-bb19-4f63-9c60-fcbcffb97f5b",

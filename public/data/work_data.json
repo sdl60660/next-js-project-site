@@ -88,6 +88,26 @@
     "date": "2025-07-16"
   },
   {
+    "project_link": "https://as.ft.com/r/81b7c27c-5ddc-46df-805b-ee914fa250bf",
+    "title": "Someone Else's Code (magazine)",
+    "publication": "Financial Times",
+    "image": "ft/vibe-coding.jpg",
+    "added_classes": ["no-padding"],
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2026-07-11"
+  },
+  {
+    "project_link": "https://as.ft.com/r/d5970704-3d08-4b64-a453-8f7f4c0a271a",
+    "title": "Electrical transformers",
+    "publication": "Financial Times",
+    "image": "ft/transformers.jpg",
+    "added_classes": ["no-padding"],
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2026-07-09"
+  },
+  {
     "project_link": "https://ig.ft.com/black-sea/",
     "title": "How Ukraine broke Russia’s grip in the Black Sea",
     "publication": "Financial Times",
@@ -142,17 +162,6 @@
     "date": "2024-05-01"
   },
   {
-    "project_link": "https://ig.ft.com/taiwan-battlegrounds/",
-    "title": "The battlegrounds that could decide a US-China war over Taiwan",
-    "publication": "Financial Times",
-    "image": "ft/taiwan_battlegrounds.jpg",
-    "added_classes": ["no-padding", "fit-cover"],
-    "overrideBackground": false,
-    "objectPosition": "22% 50%",
-    "visible": "true",
-    "date": "2024-05-19"
-  },
-  {
     "project_link": "https://ig.ft.com/us-election-game/",
     "title": "Election Game",
     "publication": "Financial Times",
@@ -205,6 +214,17 @@
     "visible": "true",
     "date": "2022-04-27"
   },
+    {
+    "project_link": "https://ig.ft.com/taiwan-battlegrounds/",
+    "title": "The battlegrounds that could decide a US-China war over Taiwan",
+    "publication": "Financial Times",
+    "image": "ft/taiwan_battlegrounds.jpg",
+    "added_classes": ["no-padding", "fit-cover"],
+    "overrideBackground": false,
+    "objectPosition": "22% 50%",
+    "visible": "true",
+    "date": "2024-05-19"
+  },
   {
     "project_link": "https://ig.ft.com/russias-war-in-ukraine-mapped/",
     "title": "How Russia’s mistakes and Ukrainian resistance altered Putin’s war",
@@ -238,18 +258,6 @@
     "visible": "true",
     "date": "2022-09-28"
   },
-
-  {
-    "project_link": "https://ig.ft.com/taiwan-economy/",
-    "title": "How Taiwan became the indispensable economy",
-    "publication": "Financial Times",
-    "image": "ft/taiwan_semiconductors_preview.png",
-    "added_classes": ["no-padding"],
-    "overrideBackground": true,
-    "background_color": "rgb(40, 42, 50)",
-    "visible": "true",
-    "date": "2023-05-31"
-  },
   {
     "project_link": "https://ig.ft.com/arizona-election-deniers/",
     "title": "How Arizona became ground zero for election deniers",
@@ -260,6 +268,17 @@
     "background_color": "rgb(195, 205, 201)",
     "visible": "true",
     "date": "2022-11-02"
+  },
+    {
+    "project_link": "https://ig.ft.com/taiwan-economy/",
+    "title": "How Taiwan became the indispensable economy",
+    "publication": "Financial Times",
+    "image": "ft/taiwan_semiconductors_preview.png",
+    "added_classes": ["no-padding"],
+    "overrideBackground": true,
+    "background_color": "rgb(40, 42, 50)",
+    "visible": "true",
+    "date": "2023-05-31"
   },
   {
     "project_link": "https://ig.ft.com/rebuilding-one-street-in-ukraine/",

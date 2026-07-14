@@ -44,29 +44,6 @@
     "date": "2024-02-28"
   },
   {
-    "project_link": "https://ig.ft.com/ai-animals/",
-    "title": "How AI is decoding the animal kingdom",
-    "publication": "Financial Times",
-    "image": "ft/ai_animals.png",
-    "added_classes": ["no-padding"],
-    "overrideBackground": true,
-    "background_color": "rgb(40, 42, 50)",
-    "visible": "true",
-    "date": "2024-01-18"
-  },
-  {
-    "project_link": "https://as.ft.com/r/a9982f0d-dcb8-44c1-b925-1bf83f883660",
-    "title": "Ukrainian children investigation",
-    "publication": "Financial Times",
-    "image": "ft/ukrainian_children.jpg",
-    "added_classes": ["no-padding", "fit-cover"],
-    "objectPosition": "100% 50%",
-
-    "overrideBackground": true,
-    "visible": "true",
-    "date": "2024-06-12"
-  },
-  {
     "project_link": "https://ig.ft.com/baltic-sea/",
     "title": "Inside Russia’s shadow war in the Baltics",
     "publication": "Financial Times",
@@ -78,8 +55,19 @@
     "date": "2024-03-10"
   },
   {
+    "project_link": "https://as.ft.com/r/a9982f0d-dcb8-44c1-b925-1bf83f883660",
+    "title": "Ukrainian children investigation",
+    "publication": "Financial Times",
+    "image": "ft/ukrainian_children.jpg",
+    "added_classes": ["no-padding", "fit-cover"],
+    "objectPosition": "100% 50%",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2024-06-12"
+  },
+  {
     "project_link": "https://ig.ft.com/us-immigration-detention/",
-    "title": "Inside America’s booming immigration detention industry",
+    "title": "Inside America’s immigration detention industry",
     "publication": "Financial Times",
     "image": "ft/immigration_detention.jpg",
     "added_classes": ["no-padding", "fit-cover"],
@@ -87,7 +75,7 @@
     "visible": "true",
     "date": "2025-07-16"
   },
-  {
+    {
     "project_link": "https://as.ft.com/r/81b7c27c-5ddc-46df-805b-ee914fa250bf",
     "title": "Someone Else's Code (magazine)",
     "publication": "Financial Times",
@@ -96,6 +84,17 @@
     "overrideBackground": false,
     "visible": "true",
     "date": "2026-07-11"
+  },
+  {
+    "project_link": "https://ig.ft.com/ai-animals/",
+    "title": "How AI is decoding the animal kingdom",
+    "publication": "Financial Times",
+    "image": "ft/ai_animals.png",
+    "added_classes": ["no-padding"],
+    "overrideBackground": true,
+    "background_color": "rgb(40, 42, 50)",
+    "visible": "true",
+    "date": "2024-01-18"
   },
   {
     "project_link": "https://as.ft.com/r/d5970704-3d08-4b64-a453-8f7f4c0a271a",
@@ -214,7 +213,7 @@
     "visible": "true",
     "date": "2022-04-27"
   },
-    {
+  {
     "project_link": "https://ig.ft.com/taiwan-battlegrounds/",
     "title": "The battlegrounds that could decide a US-China war over Taiwan",
     "publication": "Financial Times",
@@ -269,7 +268,7 @@
     "visible": "true",
     "date": "2022-11-02"
   },
-    {
+  {
     "project_link": "https://ig.ft.com/taiwan-economy/",
     "title": "How Taiwan became the indispensable economy",
     "publication": "Financial Times",

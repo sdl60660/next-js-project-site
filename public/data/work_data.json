@@ -75,14 +75,16 @@
     "visible": "true",
     "date": "2025-07-16"
   },
-    {
+  {
     "project_link": "https://as.ft.com/r/81b7c27c-5ddc-46df-805b-ee914fa250bf",
-    "title": "Someone Else's Code (magazine)",
+    "pdf_path": "/pdf/someone-elses-code.pdf",
+    "title": "FT Magazine: Someone Else's Code",
     "publication": "Financial Times",
     "image": "ft/vibe-coding.jpg",
     "added_classes": ["no-padding"],
     "overrideBackground": false,
     "visible": "true",
+
     "date": "2026-07-11"
   },
   {
@@ -129,7 +131,8 @@
   },
   {
     "project_link": "https://on.ft.com/46ceGVB",
-    "title": "FT Magazine MTA Feature",
+    "pdf_path": "/pdf/mta.pdf",
+    "title": "FT Magazine: MTA Feature",
     "publication": "Financial Times",
     "image": "ft/mta_magazine.jpg",
     "added_classes": ["no-padding"],

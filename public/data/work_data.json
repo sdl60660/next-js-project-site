@@ -118,7 +118,7 @@
     "visible": "true",
     "date": "2024-07-24"
   },
-    {
+  {
     "project_link": "https://ig.ft.com/black-sea/",
     "title": "How Ukraine broke Russia’s grip in the Black Sea",
     "publication": "Financial Times",
@@ -142,17 +142,6 @@
     "date": "2024-05-10"
   },
   {
-    "project_link": " https://ig.ft.com/shadow-fleet/",
-    "title": "The ships capitalising on the chaos of war",
-    "publication": "Financial Times",
-    "image": "ft/shadow_fleet.avif",
-    "added_classes": ["no-padding"],
-    "background_color": "rgb(40, 42, 50)",
-    "overrideBackground": true,
-    "visible": "true",
-    "date": "2026-03-25"
-  },
-  {
     "project_link": "https://on.ft.com/40MpAxV",
     "title": "The battle over New York’s congestion toll",
     "publication": "Financial Times",
@@ -162,6 +151,17 @@
     "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2024-05-01"
+  },
+  {
+    "project_link": " https://ig.ft.com/shadow-fleet/",
+    "title": "The ships capitalising on the chaos of war",
+    "publication": "Financial Times",
+    "image": "ft/shadow_fleet.avif",
+    "added_classes": ["no-padding"],
+    "background_color": "rgb(40, 42, 50)",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2026-03-25"
   },
   {
     "project_link": "https://ig.ft.com/us-election-game/",

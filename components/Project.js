@@ -33,6 +33,7 @@ const publicationStyleInfo = [
 
 const Project = ({
   project_link,
+  pdf_path,
   title,
   image,
   publication,
@@ -42,19 +43,15 @@ const Project = ({
   setFeaturedProject,
   overrideBackground = false,
   background_color = null,
-  objectPosition = "50% 50%",
+  objectPosition = '50% 50%',
   index = 1000,
 }) => {
-  const [backgroundColor, setBackgroundColor] = useState(
-    background_color || '#f9f9f9',
-  );
+  const [backgroundColor, setBackgroundColor] = useState(background_color || '#f9f9f9');
   const imageRef = useRef(null);
-
   const isMobile = useMediaQuery(768);
 
   const pubTagStyle =
-    (publication && publicationStyleInfo.find((d) => publication === d.name)) ||
-    {};
+    (publication && publicationStyleInfo.find((d) => publication === d.name)) || {};
 
   useEffect(() => {
     if (imageRef.current === null || background_color !== null) {
@@ -70,69 +67,90 @@ const Project = ({
   }, [imageRef]);
 
   return (
-    <Link
-      href={project_link}
-      key={title}
-      target={project_link.includes('.') ? '_blank' : ''}
-      rel="noreferrer"
-      className={styles.project}
-    >
+    <div className={styles.project}>
       <div className={styles['project__image-wrapper']}>
-        <div
-          key={'image'}
-          className={classNames(styles['project__preview-image'], ...added_classes.map(d => styles[d]) )}
-          data-info={JSON.stringify(title)}
-          // onMouseEnter={(e) => {
-          //   setFeaturedProject(e.target.dataset.info);
-          // }}
-          // onMouseLeave={() => {
-          //   setFeaturedProject(null);
-          // }}
-          style={{
-            // transform:
-            //   featuredProject === JSON.stringify(title)
-            //     ? 'scale(1.05)'
-            //     : 'scale(1)',
-            backgroundColor: overrideBackground ? backgroundColor : null,
-          }}
+        <Link
+          href={project_link}
+          key={`${title}-image`}
+          target={project_link.includes('.') ? '_blank' : ''}
+          rel="noreferrer"
         >
-          <div className={styles['inner-wrapper']}>
-            <Image
-              ref={imageRef}
-              src={`/img/${image}`}
-              fill
-              alt={title}
-              data-info={JSON.stringify(title)}
-              onLoad={() => {
-                if (background_color === null && overrideBackground === true) {
-                  const color = getImageColor(imageRef.current);
-                  setBackgroundColor(
-                    `rgb(${color[0]}, ${color[1]}, ${color[2]})`,
-                  );
-                }
-              }}
-              style={{
-                // opacity: featuredProject === JSON.stringify(title) ? 1.0 : 0.9,
-                objectPosition
-              }}
-              sizes="(max-width: 768px) 350px,
+          <div
+            key={'image'}
+            className={classNames(
+              styles['project__preview-image'],
+              ...added_classes.map((d) => styles[d]),
+            )}
+            data-info={JSON.stringify(title)}
+            style={{
+              backgroundColor: overrideBackground ? backgroundColor : null,
+            }}
+          >
+            <div className={styles['inner-wrapper']}>
+              <Image
+                ref={imageRef}
+                src={`/img/${image}`}
+                fill
+                alt={title}
+                data-info={JSON.stringify(title)}
+                onLoad={() => {
+                  if (background_color === null && overrideBackground === true) {
+                    const color = getImageColor(imageRef.current);
+                    setBackgroundColor(`rgb(${color[0]}, ${color[1]}, ${color[2]})`);
+                  }
+                }}
+                style={{
+                  objectPosition,
+                }}
+                sizes="(max-width: 768px) 350px,
               (max-width: 1050px) 450px, 600px"
-              priority={isMobile ? index < 2 : index < 6}
-            />
+                priority={isMobile ? index < 2 : index < 6}
+              />
+            </div>
           </div>
-        </div>
+        </Link>
         <div className={styles.caption} key={'caption'}>
           <p>
-            {title}
+            <Link
+              href={project_link}
+              key={`${title}-title`}
+              target={project_link.includes('.') ? '_blank' : ''}
+              rel="noreferrer"
+            >
+              {title}
+            </Link>
+            {pdf_path && (
+              <>
+                {' '}
+                [
+                <Link
+                  key={`${title}-pdf-link`}
+                  className={styles['pdf-link']}
+                  href={pdf_path}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  PDF
+                </Link>
+                ]
+              </>
+            )}
             {publication && (
-              <span className={styles['pub-info']} style={{ ...pubTagStyle }}>
-                {publication}
-              </span>
+              <Link
+                href={project_link}
+                key={`${title}-publication-pill`}
+                target={project_link.includes('.') ? '_blank' : ''}
+                rel="noreferrer"
+              >
+                <span className={styles['pub-info']} style={{ ...pubTagStyle }}>
+                  {publication}
+                </span>
+              </Link>
             )}
           </p>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

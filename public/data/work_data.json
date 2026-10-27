@@ -75,14 +75,16 @@
     "visible": "true",
     "date": "2025-07-16"
   },
-    {
+  {
     "project_link": "https://as.ft.com/r/81b7c27c-5ddc-46df-805b-ee914fa250bf",
-    "title": "Someone Else's Code (magazine)",
+    "pdf_path": "/pdf/someone-elses-code.pdf",
+    "title": "FT Magazine: Someone Else's Code",
     "publication": "Financial Times",
     "image": "ft/vibe-coding.jpg",
     "added_classes": ["no-padding"],
     "overrideBackground": false,
     "visible": "true",
+
     "date": "2026-07-11"
   },
   {
@@ -107,6 +109,16 @@
     "date": "2026-07-09"
   },
   {
+    "project_link": "https://ig.ft.com/private-equity/",
+    "title": "How private equity tangled banks in debt",
+    "publication": "Financial Times",
+    "image": "ft/private_equity_debt.png",
+    "added_classes": ["no-padding", "fit-cover"],
+    "overrideBackground": false,
+    "visible": "true",
+    "date": "2024-07-24"
+  },
+  {
     "project_link": "https://ig.ft.com/black-sea/",
     "title": "How Ukraine broke Russia’s grip in the Black Sea",
     "publication": "Financial Times",
@@ -118,18 +130,9 @@
     "date": "2024-05-02"
   },
   {
-    "project_link": "https://ig.ft.com/private-equity/",
-    "title": "How private equity tangled banks in debt",
-    "publication": "Financial Times",
-    "image": "ft/private_equity_debt.png",
-    "added_classes": ["no-padding", "fit-cover"],
-    "overrideBackground": false,
-    "visible": "true",
-    "date": "2024-07-24"
-  },
-  {
     "project_link": "https://on.ft.com/46ceGVB",
-    "title": "FT Magazine MTA Feature",
+    "pdf_path": "/pdf/mta.pdf",
+    "title": "FT Magazine: MTA Feature",
     "publication": "Financial Times",
     "image": "ft/mta_magazine.jpg",
     "added_classes": ["no-padding"],
@@ -137,17 +140,6 @@
     "overrideBackground": true,
     "visible": "true",
     "date": "2024-05-10"
-  },
-  {
-    "project_link": " https://ig.ft.com/shadow-fleet/",
-    "title": "The ships capitalising on the chaos of war",
-    "publication": "Financial Times",
-    "image": "ft/shadow_fleet.avif",
-    "added_classes": ["no-padding"],
-    "background_color": "rgb(40, 42, 50)",
-    "overrideBackground": true,
-    "visible": "true",
-    "date": "2026-03-25"
   },
   {
     "project_link": "https://on.ft.com/40MpAxV",
@@ -159,6 +151,17 @@
     "background_color": "rgb(255, 241, 229)",
     "visible": "true",
     "date": "2024-05-01"
+  },
+  {
+    "project_link": " https://ig.ft.com/shadow-fleet/",
+    "title": "The ships capitalising on the chaos of war",
+    "publication": "Financial Times",
+    "image": "ft/shadow_fleet.avif",
+    "added_classes": ["no-padding"],
+    "background_color": "rgb(40, 42, 50)",
+    "overrideBackground": true,
+    "visible": "true",
+    "date": "2026-03-25"
   },
   {
     "project_link": "https://ig.ft.com/us-election-game/",
